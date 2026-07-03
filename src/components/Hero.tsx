@@ -14,12 +14,14 @@ export default function Hero() {
       />
       <div className="relative z-10 max-w-[1440px] mx-auto px-4 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
         <div className="flex flex-col gap-6 text-center lg:text-left">
-          <div className="inline-flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-full bg-surface-container-lowest border border-outline-variant/50 shadow-sm w-fit mx-auto lg:mx-0">
+          <div className="inline-flex items-center gap-1.5 sm:gap-2 pl-1.5 pr-2.5 sm:pr-3 py-1.5 rounded-full bg-surface-container-lowest border border-outline-variant/50 shadow-sm w-fit max-w-full mx-auto lg:mx-0">
             <span className="inline-flex items-center gap-1 rounded-full bg-primary/10 px-2 py-0.5 shrink-0">
               <span className="material-symbols-outlined text-[16px] text-primary">auto_awesome</span>
-              <span className="eyebrow !tracking-wider">AI Native</span>
+              <span className="eyebrow">AI Native</span>
             </span>
-            <span className="text-label-md text-on-surface-variant">Tự động hóa vận hành cho SMB Việt</span>
+            <span className="text-[12.5px] sm:text-label-md text-on-surface-variant whitespace-nowrap">
+              Tự động hóa vận hành cho SMB Việt
+            </span>
           </div>
 
           <h1 className="font-headline text-[32px] leading-[1.12] md:text-[44px] lg:text-headline-2xl font-bold tracking-tight text-on-surface text-balance">
