@@ -3,31 +3,61 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
+const NAV_LINKS = [
+  { label: "Features", href: "#features" },
+  { label: "Solutions", href: "#solutions" },
+  { label: "Pricing", href: "#pricing" },
+];
+
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
+      setIsScrolled(window.scrollY > 24);
     };
-    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
-    <header className={`fixed top-0 w-full z-50 bg-surface/80 dark:bg-surface-dim/80 backdrop-blur-xl border-b border-outline-variant/30 shadow-sm transition-all duration-300 ${isScrolled ? "py-2 h-14" : "h-16"}`}>
-      <div className="flex justify-between items-center h-full px-margin-desktop max-w-max-width mx-auto">
-        <div className="flex items-center gap-base">
-          <span className="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed tracking-tight">AI4W</span>
-        </div>
-        <nav className="hidden md:flex items-center gap-xl">
-          <Link href="#" className="font-body-md text-body-md text-primary dark:text-primary-fixed font-bold border-b-2 border-primary pb-1 transition-all duration-300">Features</Link>
-          <Link href="#" className="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors">Solutions</Link>
-          <Link href="#" className="font-body-md text-body-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors">Pricing</Link>
+    <header
+      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
+        isScrolled
+          ? "h-14 bg-surface/85 backdrop-blur-xl border-b border-outline-variant/40 shadow-sm"
+          : "h-16 bg-transparent border-b border-transparent"
+      }`}
+    >
+      <div className="flex justify-between items-center h-full px-4 md:px-8 max-w-[1440px] mx-auto">
+        <Link href="#" className="flex items-center gap-2" aria-label="AI4W trang chủ">
+          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-on-primary font-headline text-label-md font-bold">
+            A
+          </span>
+          <span className="font-headline text-headline-md font-bold text-on-surface tracking-tight">
+            AI4W
+          </span>
+        </Link>
+
+        <nav className="hidden md:flex items-center gap-1">
+          {NAV_LINKS.map((link) => (
+            <Link
+              key={link.label}
+              href={link.href}
+              className="text-body-md text-on-surface-variant hover:text-on-surface px-3 py-2 rounded-lg hover:bg-on-surface/[0.04] transition-colors"
+            >
+              {link.label}
+            </Link>
+          ))}
         </nav>
-        <div className="flex items-center gap-md">
-          <button className="hidden md:block font-label-md text-label-md px-lg py-sm rounded-full text-primary hover:bg-primary/5 transition-all">Đăng nhập</button>
-          <button className="font-label-md text-label-md px-lg py-sm bg-primary-container text-on-primary-container rounded-full font-bold shadow-sm hover:scale-105 active:scale-95 transition-all duration-300">Try for free</button>
+
+        <div className="flex items-center gap-2">
+          <button className="hidden md:block font-headline text-label-md px-4 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-on-surface/[0.04] transition-colors">
+            Đăng nhập
+          </button>
+          <button className="font-headline text-label-md px-5 py-2.5 bg-primary text-on-primary rounded-lg font-semibold shadow-sm shadow-primary/20 hover:shadow-md hover:shadow-primary/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200">
+            Try for free
+          </button>
         </div>
       </div>
     </header>

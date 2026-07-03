@@ -49,46 +49,123 @@
   --color-surface-bright: #f8f9ff;
   --color-primary-container: #003299;
 
-  --spacing-xs: 4px;
-  --spacing-margin-desktop: 32px;
-  --spacing-xl: 32px;
-  --spacing-max-width: 1440px;
-  --spacing-margin-mobile: 16px;
-  --spacing-lg: 24px;
-  --spacing-sm: 12px;
-  --spacing-base: 8px;
-  --spacing-gutter: 20px;
-  --spacing-md: 16px;
+  --font-headline: var(--font-geist), "Geist", sans-serif;
+  --font-body: var(--font-inter), "Inter", sans-serif;
 
-  --font-headline-md: Geist, sans-serif;
-  --font-body-md: Inter, sans-serif;
-  --font-headline-lg: Geist, sans-serif;
-  --font-body-lg: Inter, sans-serif;
-  --font-label-sm: Geist, sans-serif;
-  --font-body-sm: Inter, sans-serif;
-  --font-headline-xl: Geist, sans-serif;
-  --font-label-md: Geist, sans-serif;
-  --font-headline-lg-mobile: Geist, sans-serif;
+  --text-headline-2xl: 56px;
+  --text-headline-2xl--line-height: 60px;
+  --text-headline-2xl--letter-spacing: -0.03em;
+  --text-headline-2xl--font-weight: 700;
+
+  --text-headline-xl: 40px;
+  --text-headline-xl--line-height: 48px;
+  --text-headline-xl--letter-spacing: -0.02em;
+  --text-headline-xl--font-weight: 700;
+
+  --text-headline-lg: 32px;
+  --text-headline-lg--line-height: 40px;
+  --text-headline-lg--letter-spacing: -0.01em;
+  --text-headline-lg--font-weight: 600;
+
+  --text-headline-md: 24px;
+  --text-headline-md--line-height: 32px;
+  --text-headline-md--font-weight: 600;
+
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 28px;
+
+  --text-body-md: 16px;
+  --text-body-md--line-height: 24px;
+
+  --text-body-sm: 14px;
+  --text-body-sm--line-height: 20px;
+
+  --text-label-md: 14px;
+  --text-label-md--line-height: 20px;
+  --text-label-md--letter-spacing: 0.01em;
+  --text-label-md--font-weight: 600;
+
+  --text-label-sm: 12px;
+  --text-label-sm--line-height: 16px;
+  --text-label-sm--font-weight: 500;
+
+  --animate-marquee: marquee 32s linear infinite;
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
   body {
-    font-family: var(--font-body-md);
+    font-family: var(--font-body);
     background-color: var(--color-background);
     color: var(--color-on-surface);
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection {
+    background-color: color-mix(in srgb, var(--color-primary) 18%, transparent);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+    border-radius: 4px;
   }
 }
 
 @layer components {
   .glass-panel {
-      background: rgba(255, 255, 255, 0.8);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
   }
   .layer-gradient {
-      background: linear-gradient(90deg, #002a80 0%, #003299 100%);
+    background:
+      radial-gradient(120% 140% at 100% 0%, rgba(159, 182, 255, 0.35) 0%, transparent 50%),
+      linear-gradient(105deg, #002a80 0%, #0044c4 55%, #003299 100%);
   }
   .material-symbols-outlined {
-      font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  }
+  /* Subtle blueprint grid, faded toward edges — adds depth without noise. */
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, rgba(0, 42, 128, 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0, 42, 128, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+    -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
+    mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
+  }
+  .eyebrow {
+    font-family: var(--font-headline);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-primary);
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Respect users who prefer less motion. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
   }
 }

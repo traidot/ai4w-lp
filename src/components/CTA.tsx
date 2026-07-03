@@ -1,21 +1,42 @@
 export default function CTA() {
   return (
-    <section className="scroll-section py-32 relative overflow-hidden transition-all duration-700 opacity-0 translate-y-10">
-      <div className="absolute inset-0 bg-primary/5 -z-10"></div>
-      <div className="max-w-max-width mx-auto px-margin-desktop text-center relative z-10">
-        <div className="max-w-3xl mx-auto flex flex-col items-center gap-lg">
-          <h2 className="font-headline-xl text-headline-xl text-on-surface">Sẵn sàng nâng tầm doanh nghiệp?</h2>
-          <p className="font-body-lg text-body-lg text-on-surface-variant">Gia nhập cộng đồng 1,000+ SMB đang vận hành thông minh hơn cùng AI4W.</p>
-          <div className="mt-xl">
-            <button className="px-32 py-xl bg-primary text-white rounded-2xl font-headline-md text-headline-md shadow-xl shadow-primary/30 hover:scale-105 hover:brightness-110 transition-all active:scale-95 duration-300">
-              Liên hệ tư vấn 1-1
-            </button>
+    <section className="scroll-section py-20 lg:py-28">
+      <div className="max-w-[1440px] mx-auto px-4 md:px-8">
+        <div className="relative overflow-hidden rounded-3xl layer-gradient px-6 py-16 md:px-16 md:py-20 text-center">
+          <div
+            className="pointer-events-none absolute -top-24 -left-24 h-72 w-72 rounded-full bg-white/10 blur-3xl"
+            aria-hidden="true"
+          />
+          <div
+            className="pointer-events-none absolute -bottom-24 -right-24 h-80 w-80 rounded-full bg-tertiary/20 blur-3xl"
+            aria-hidden="true"
+          />
+
+          <div className="relative z-10 max-w-2xl mx-auto flex flex-col items-center gap-6">
+            <h2 className="font-headline text-[30px] leading-tight md:text-headline-xl font-bold tracking-tight text-white text-balance">
+              Sẵn sàng nâng tầm doanh nghiệp?
+            </h2>
+            <p className="text-body-lg text-white/70">
+              Gia nhập cộng đồng 1,000+ SMB đang vận hành thông minh hơn cùng AI4W.
+            </p>
+            <div className="mt-2 flex flex-col sm:flex-row items-center gap-3">
+              <button className="group px-8 py-4 bg-white text-primary rounded-xl font-headline text-label-md flex items-center gap-2 shadow-lg hover:-translate-y-0.5 transition-all duration-200 active:translate-y-0">
+                Liên hệ tư vấn 1-1
+                <span className="material-symbols-outlined text-[20px] transition-transform duration-200 group-hover:translate-x-1">
+                  arrow_forward
+                </span>
+              </button>
+              <button className="px-8 py-4 rounded-xl font-headline text-label-md text-white border border-white/30 hover:bg-white/10 transition-colors">
+                Bắt đầu miễn phí
+              </button>
+            </div>
+            <p className="flex items-center gap-1.5 text-label-sm text-white/60 mt-2">
+              <span className="material-symbols-outlined text-[16px]">check_circle</span>
+              Không cần thẻ tín dụng · Miễn phí tư vấn giải pháp quy trình
+            </p>
           </div>
-          <p className="font-label-sm text-label-sm text-on-surface-variant mt-md">Không cần thẻ tín dụng. Miễn phí tư vấn giải pháp quy trình.</p>
         </div>
       </div>
-      <div className="absolute top-0 left-0 w-64 h-64 bg-primary/10 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-tertiary/10 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"></div>
     </section>
   );
 }
