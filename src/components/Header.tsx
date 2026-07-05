@@ -2,24 +2,33 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import type { Dictionary, Locale } from "@/i18n/dictionaries";
 
-const NAV_LINKS = [
-  { label: "Tính năng", href: "#features" },
-  { label: "Giải pháp", href: "#solutions" },
-  { label: "Bảng giá", href: "#pricing" },
+const LOCALES: { code: Locale; label: string }[] = [
+  { code: "vi", label: "VI" },
+  { code: "en", label: "EN" },
 ];
 
-export default function Header() {
+export default function Header({ nav, lang }: { nav: Dictionary["nav"]; lang: Locale }) {
   const [isScrolled, setIsScrolled] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 24);
-    };
+    const handleScroll = () => setIsScrolled(window.scrollY > 24);
     handleScroll();
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const rest = pathname.replace(/^\/(vi|en)(?=\/|$)/, "");
+  const localeHref = (code: Locale) => `/${code}${rest}`;
+
+  const navLinks = [
+    { label: nav.features, href: "#features" },
+    { label: nav.solutions, href: "#solutions" },
+    { label: nav.pricing, href: "#pricing" },
+  ];
 
   return (
     <header
@@ -30,7 +39,7 @@ export default function Header() {
       }`}
     >
       <div className="flex justify-between items-center h-full px-4 md:px-8 max-w-[1440px] mx-auto">
-        <Link href="#" className="flex items-center gap-2" aria-label="DXFlow trang chủ">
+        <Link href={`/${lang}`} className="flex items-center gap-2" aria-label={nav.home}>
           <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-on-primary font-headline text-label-md font-bold">
             D
           </span>
@@ -40,9 +49,9 @@ export default function Header() {
         </Link>
 
         <nav className="hidden md:flex items-center gap-1">
-          {NAV_LINKS.map((link) => (
+          {navLinks.map((link) => (
             <Link
-              key={link.label}
+              key={link.href}
               href={link.href}
               className="text-body-md text-on-surface-variant hover:text-on-surface px-3 py-2 rounded-lg hover:bg-on-surface/[0.04] transition-colors"
             >
@@ -51,12 +60,33 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 sm:gap-3">
+          <div
+            className="flex items-center rounded-lg border border-outline-variant/60 p-0.5"
+            role="group"
+            aria-label={nav.switchLanguage}
+          >
+            {LOCALES.map(({ code, label }) => (
+              <Link
+                key={code}
+                href={localeHref(code)}
+                aria-current={code === lang ? "true" : undefined}
+                className={`font-headline text-label-sm px-2 py-1 rounded-md transition-colors ${
+                  code === lang
+                    ? "bg-primary text-on-primary"
+                    : "text-on-surface-variant hover:text-on-surface"
+                }`}
+              >
+                {label}
+              </Link>
+            ))}
+          </div>
+
           <button className="hidden md:block font-headline text-label-md px-4 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-on-surface/[0.04] transition-colors">
-            Đăng nhập
+            {nav.login}
           </button>
-          <button className="font-headline text-label-md px-5 py-2.5 bg-primary text-on-primary rounded-lg font-semibold shadow-sm hover:bg-primary-container transition-colors">
-            Dùng thử miễn phí
+          <button className="font-headline text-label-md px-4 sm:px-5 py-2.5 bg-primary text-on-primary rounded-lg font-semibold shadow-sm hover:bg-primary-container transition-colors">
+            {nav.tryFree}
           </button>
         </div>
       </div>

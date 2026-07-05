@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "DXFlow - Hệ điều hành cho công việc",
+    "description": "Phần mềm quản lý và tự động hóa vận hành cho doanh nghiệp vừa và nhỏ tại Việt Nam."
+  },
+  "nav": {
+    "features": "Tính năng",
+    "solutions": "Giải pháp",
+    "pricing": "Bảng giá",
+    "login": "Đăng nhập",
+    "tryFree": "Dùng thử miễn phí",
+    "switchLanguage": "Chuyển ngôn ngữ",
+    "home": "DXFlow trang chủ"
+  },
+  "hero": {
+    "badge": "Phần mềm vận hành cho doanh nghiệp Việt",
+    "title": "Quản lý và tự động hóa vận hành cho doanh nghiệp Việt",
+    "subtitle": "DXFlow hợp nhất bán hàng, kho, khách hàng và tự động hóa các việc lặp lại — giúp đội ngũ của bạn làm ít thao tác, ít sai sót và tập trung vào tăng trưởng.",
+    "ctaPrimary": "Bắt đầu ngay miễn phí",
+    "ctaSecondary": "Xem Demo",
+    "imgAlt": "Bảng điều khiển DXFlow hiển thị số liệu vận hành doanh nghiệp",
+    "chipSync": "Đồng bộ đơn hàng · Sapo, GHN",
+    "chipRevenueLabel": "Doanh thu tháng này",
+    "stats": [
+      { "value": "1,000+", "label": "Doanh nghiệp vừa & nhỏ" },
+      { "value": "90%", "label": "Tác vụ tự động hóa" },
+      { "value": "24/7", "label": "Vận hành liên tục" }
+    ]
+  },
+  "features": {
+    "eyebrow": "Tính năng cốt lõi",
+    "title": "Một phần mềm, thay cho hàng loạt công cụ rời rạc",
+    "subtitle": "Thay vì dùng nhiều app tách rời, DXFlow gom toàn bộ việc vận hành về một nơi và tự động hóa phần lặp lại.",
+    "items": [
+      {
+        "title": "Tự động hóa",
+        "description": "Chạy các việc lặp lại, tự động hóa quy trình phê duyệt và nhắc việc nội bộ, giảm thao tác thủ công mỗi ngày."
+      },
+      {
+        "title": "Báo cáo & Phân tích",
+        "description": "Tổng hợp số liệu bán hàng, kho và khách hàng theo thời gian thực, giúp bạn ra quyết định dựa trên dữ liệu."
+      },
+      {
+        "title": "Kết nối & Đồng bộ",
+        "description": "Tích hợp sâu hệ sinh thái Việt Nam: Sapo, MISA, GHN, VietQR. Dữ liệu đồng bộ giữa các nền tảng tức thì."
+      }
+    ]
+  },
+  "architecture": {
+    "eyebrow": "Nền tảng hợp nhất",
+    "title": "Một nền tảng cho toàn bộ nghiệp vụ vận hành",
+    "subtitle": "Từ bán hàng, kho, khách hàng đến tự động hóa — mọi thứ kết nối trong cùng một hệ thống, không còn dữ liệu rời rạc.",
+    "sales": "Bán hàng đa kênh",
+    "salesDesc": "Đơn hàng từ cửa hàng, website và sàn gộp về một nơi.",
+    "inventory": "Quản lý kho",
+    "inventoryDesc": "Tồn kho chính xác, cảnh báo hết hàng.",
+    "crm": "Khách hàng & CRM",
+    "crmDesc": "Lịch sử mua, chăm sóc và nhắc hẹn.",
+    "automation": "Tự động hóa & Nhắc việc",
+    "automationDesc": "Quy trình lặp lại tự chạy, đúng người đúng lúc.",
+    "security": "Bảo mật & Phân quyền",
+    "securityDesc": "Dữ liệu được mã hóa và phân quyền theo vai trò, đảm bảo thông tin doanh nghiệp luôn an toàn.",
+    "securityBadge": "Dữ liệu được mã hóa"
+  },
+  "solutions": {
+    "eyebrow": "Giải pháp theo ngành",
+    "title": "Giải pháp chuyên biệt cho từng ngành hàng",
+    "subtitle": "Mỗi lĩnh vực có những đặc thù riêng, DXFlow được thiết kế để thích ứng và tối ưu hóa cho từng quy trình cụ thể.",
+    "spaBadge": "Giải pháp Spa & Salon",
+    "spaTitle": "Quản lý lịch hẹn & CRM tự động",
+    "spaDesc": "Tự động hóa 90% quy trình đặt lịch, nhắc hẹn và chăm sóc khách hàng cũ qua Zalo OA.",
+    "spaImgAlt": "Nhân viên spa sử dụng phần mềm DXFlow tại quầy lễ tân",
+    "items": [
+      {
+        "title": "Bán lẻ",
+        "description": "Quản lý kho chính xác, dự báo hàng tồn và tích hợp vận chuyển GHN/AhaMove tức thì."
+      },
+      {
+        "title": "Công ty Marketing",
+        "description": "Quản lý dự án tập trung, tự động hóa báo cáo và phân bổ nguồn lực nhân sự hiệu quả."
+      }
+    ]
+  },
+  "partners": {
+    "label": "Được tin dùng & tích hợp cùng các nền tảng hàng đầu Việt Nam"
+  },
+  "testimonials": {
+    "eyebrow": "Khách hàng nói gì",
+    "title": "Được các doanh nghiệp vừa và nhỏ tin tưởng vận hành mỗi ngày",
+    "subtitle": "Từ spa, bán lẻ đến công ty marketing — DXFlow đang giúp hàng nghìn đội ngũ làm việc ít hơn mà hiệu quả hơn.",
+    "ratingLabel": "Đánh giá 5 trên 5 sao",
+    "items": [
+      {
+        "quote": "DXFlow thay thế gần như toàn bộ việc nhắc lịch và chăm sóc khách cũ. Nhân viên lễ tân giờ tập trung phục vụ tại quầy, tỷ lệ khách quay lại tăng rõ rệt.",
+        "role": "Chủ chuỗi spa",
+        "metricLabel": "Khách quay lại"
+      },
+      {
+        "quote": "Đồng bộ tồn kho giữa Sapo và kho thực tế theo thời gian thực giúp chúng tôi hết cảnh bán vượt hàng. Báo cáo cuối ngày tự chạy, không phải ngồi nhập tay nữa.",
+        "role": "Giám đốc vận hành",
+        "metricLabel": "Tiết kiệm mỗi tuần"
+      },
+      {
+        "quote": "Phần mềm tự phân bổ đầu việc và tổng hợp báo cáo chiến dịch cho từng khách hàng. Đội ngũ nhẹ đầu hẳn, chúng tôi nhận thêm dự án mà không cần tuyển gấp.",
+        "role": "Nhà sáng lập",
+        "metricLabel": "Năng suất đội ngũ"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Sẵn sàng nâng tầm doanh nghiệp?",
+    "subtitle": "Gia nhập cộng đồng 1,000+ doanh nghiệp vừa và nhỏ đang vận hành hiệu quả hơn cùng DXFlow.",
+    "primary": "Liên hệ tư vấn 1-1",
+    "secondary": "Bắt đầu miễn phí",
+    "note": "Không cần thẻ tín dụng · Miễn phí tư vấn giải pháp quy trình"
+  },
+  "footer": {
+    "tagline": "Phần mềm quản lý và tự động hóa vận hành cho doanh nghiệp vừa và nhỏ tại Việt Nam.",
+    "serviceOf": "Một dịch vụ của",
+    "groups": [
+      { "title": "Sản phẩm", "links": ["Tính năng", "Bảng giá", "Demo"] },
+      { "title": "Công ty", "links": ["Về chúng tôi", "Tuyển dụng", "Hỗ trợ"] },
+      { "title": "Pháp lý", "links": ["Chính sách bảo mật", "Điều khoản dịch vụ"] }
+    ],
+    "copyright": "© 2024 DXFlow. Một dịch vụ của DXS Việt Nam."
+  }
+}

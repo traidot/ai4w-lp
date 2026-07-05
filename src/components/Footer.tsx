@@ -1,26 +1,14 @@
 import Link from "next/link";
+import type { Dictionary, Locale } from "@/i18n/dictionaries";
 
-const LINK_GROUPS = [
-  {
-    title: "Sản phẩm",
-    links: ["Tính năng", "Bảng giá", "Demo"],
-  },
-  {
-    title: "Công ty",
-    links: ["Về chúng tôi", "Tuyển dụng", "Hỗ trợ"],
-  },
-  {
-    title: "Pháp lý",
-    links: ["Chính sách bảo mật", "Điều khoản dịch vụ"],
-  },
-];
+export default function Footer({ dict, lang }: { dict: Dictionary; lang: Locale }) {
+  const t = dict.footer;
 
-export default function Footer() {
   return (
     <footer className="w-full bg-surface-container border-t border-outline-variant/30">
       <div className="grid grid-cols-2 md:grid-cols-5 gap-8 py-14 px-4 md:px-8 max-w-[1440px] mx-auto">
         <div className="col-span-2 flex flex-col gap-4 max-w-xs">
-          <Link href="#" className="flex items-center gap-2" aria-label="DXFlow trang chủ">
+          <Link href={`/${lang}`} className="flex items-center gap-2" aria-label={dict.nav.home}>
             <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-on-primary font-headline text-label-md font-bold">
               D
             </span>
@@ -28,11 +16,9 @@ export default function Footer() {
               DXFlow
             </span>
           </Link>
+          <p className="text-body-sm text-on-surface-variant">{t.tagline}</p>
           <p className="text-body-sm text-on-surface-variant">
-            Phần mềm quản lý và tự động hóa vận hành cho doanh nghiệp vừa và nhỏ tại Việt Nam.
-          </p>
-          <p className="text-body-sm text-on-surface-variant">
-            Một dịch vụ của{" "}
+            {t.serviceOf}{" "}
             <a
               href="https://dxsolution.vn/"
               target="_blank"
@@ -44,7 +30,7 @@ export default function Footer() {
           </p>
         </div>
 
-        {LINK_GROUPS.map((group) => (
+        {t.groups.map((group) => (
           <div key={group.title}>
             <h4 className="font-headline text-label-md text-on-surface mb-4">{group.title}</h4>
             <div className="flex flex-col gap-3">
@@ -64,9 +50,7 @@ export default function Footer() {
 
       <div className="border-t border-outline-variant/30">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 py-6 px-4 md:px-8 max-w-[1440px] mx-auto">
-          <p className="text-body-sm text-on-surface-variant">
-            © 2024 DXFlow. Một dịch vụ của DXS Việt Nam.
-          </p>
+          <p className="text-body-sm text-on-surface-variant">{t.copyright}</p>
           <a
             href="https://dxsolution.vn/"
             target="_blank"

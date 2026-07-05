@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "title": "DXFlow - The operating system for work",
+    "description": "Management and operations automation software for small and medium businesses in Vietnam."
+  },
+  "nav": {
+    "features": "Features",
+    "solutions": "Solutions",
+    "pricing": "Pricing",
+    "login": "Log in",
+    "tryFree": "Try for free",
+    "switchLanguage": "Switch language",
+    "home": "DXFlow home"
+  },
+  "hero": {
+    "badge": "Operations software for Vietnamese businesses",
+    "title": "Manage and automate operations for Vietnamese businesses",
+    "subtitle": "DXFlow unifies sales, inventory and customers, and automates repetitive work — so your team does less manual work, makes fewer mistakes, and focuses on growth.",
+    "ctaPrimary": "Start for free",
+    "ctaSecondary": "Watch demo",
+    "imgAlt": "DXFlow dashboard showing business operations metrics",
+    "chipSync": "Orders synced · Sapo, GHN",
+    "chipRevenueLabel": "Revenue this month",
+    "stats": [
+      { "value": "1,000+", "label": "Small & medium businesses" },
+      { "value": "90%", "label": "Tasks automated" },
+      { "value": "24/7", "label": "Always-on operations" }
+    ]
+  },
+  "features": {
+    "eyebrow": "Core features",
+    "title": "One platform, replacing a pile of disconnected tools",
+    "subtitle": "Instead of juggling separate apps, DXFlow brings all your operations into one place and automates the repetitive parts.",
+    "items": [
+      {
+        "title": "Automation",
+        "description": "Run repetitive tasks, automate approval flows and internal reminders, cutting manual work every day."
+      },
+      {
+        "title": "Reports & Analytics",
+        "description": "Consolidate sales, inventory and customer data in real time so you can make decisions based on data."
+      },
+      {
+        "title": "Connect & Sync",
+        "description": "Deep integration with Vietnam's ecosystem: Sapo, MISA, GHN, VietQR. Data stays in sync across platforms instantly."
+      }
+    ]
+  },
+  "architecture": {
+    "eyebrow": "Unified platform",
+    "title": "One platform for your entire operation",
+    "subtitle": "From sales, inventory and customers to automation — everything connects in one system, with no more scattered data.",
+    "sales": "Omnichannel sales",
+    "salesDesc": "Orders from stores, your website and marketplaces in one place.",
+    "inventory": "Inventory",
+    "inventoryDesc": "Accurate stock levels with out-of-stock alerts.",
+    "crm": "Customers & CRM",
+    "crmDesc": "Purchase history, customer care and appointment reminders.",
+    "automation": "Automation & Reminders",
+    "automationDesc": "Repetitive workflows run on their own, to the right person at the right time.",
+    "security": "Security & Permissions",
+    "securityDesc": "Data is encrypted and role-based, keeping your business information safe at all times.",
+    "securityBadge": "Data encrypted"
+  },
+  "solutions": {
+    "eyebrow": "Industry solutions",
+    "title": "Tailored solutions for every industry",
+    "subtitle": "Every industry has its own quirks; DXFlow is built to adapt and optimize for each specific workflow.",
+    "spaBadge": "Spa & Salon solution",
+    "spaTitle": "Appointment management & automated CRM",
+    "spaDesc": "Automate 90% of booking, reminders and returning-customer care via Zalo OA.",
+    "spaImgAlt": "Spa staff using DXFlow software at the reception desk",
+    "items": [
+      {
+        "title": "Retail",
+        "description": "Accurate inventory, stock forecasting and instant GHN/AhaMove shipping integration."
+      },
+      {
+        "title": "Marketing agency",
+        "description": "Centralized project management, automated reporting and efficient staff allocation."
+      }
+    ]
+  },
+  "partners": {
+    "label": "Trusted by and integrated with Vietnam's leading platforms"
+  },
+  "testimonials": {
+    "eyebrow": "What customers say",
+    "title": "Trusted by small and medium businesses to run every day",
+    "subtitle": "From spas and retail to marketing agencies — DXFlow helps thousands of teams do less and achieve more.",
+    "ratingLabel": "Rated 5 out of 5 stars",
+    "items": [
+      {
+        "quote": "DXFlow replaced almost all of our reminder and returning-customer care work. Our receptionists now focus on serving guests at the counter, and our return rate has clearly increased.",
+        "role": "Spa chain owner",
+        "metricLabel": "Returning customers"
+      },
+      {
+        "quote": "Real-time inventory sync between Sapo and our actual warehouse ended our overselling problems. End-of-day reports run themselves — no more manual data entry.",
+        "role": "Operations director",
+        "metricLabel": "Saved per week"
+      },
+      {
+        "quote": "The software assigns tasks and compiles campaign reports for each client automatically. The team is far less stressed, and we've taken on more projects without rushing to hire.",
+        "role": "Founder",
+        "metricLabel": "Team productivity"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to level up your business?",
+    "subtitle": "Join 1,000+ small and medium businesses already operating more efficiently with DXFlow.",
+    "primary": "Book a 1-on-1 consultation",
+    "secondary": "Start for free",
+    "note": "No credit card required · Free process consultation"
+  },
+  "footer": {
+    "tagline": "Management and operations automation software for small and medium businesses in Vietnam.",
+    "serviceOf": "A service by",
+    "groups": [
+      { "title": "Product", "links": ["Features", "Pricing", "Demo"] },
+      { "title": "Company", "links": ["About us", "Careers", "Support"] },
+      { "title": "Legal", "links": ["Privacy Policy", "Terms of Service"] }
+    ],
+    "copyright": "© 2024 DXFlow. A service by DXS Việt Nam."
+  }
+}

@@ -1,10 +1,8 @@
-const TRUST_STATS = [
-  { value: "1,000+", label: "Doanh nghiệp vừa & nhỏ" },
-  { value: "90%", label: "Tác vụ tự động hóa" },
-  { value: "24/7", label: "Vận hành liên tục" },
-];
+import type { Dictionary } from "@/i18n/dictionaries";
 
-export default function Hero() {
+export default function Hero({ dict }: { dict: Dictionary }) {
+  const t = dict.hero;
+
   return (
     <section className="scroll-section relative overflow-hidden pt-14 lg:pt-24 pb-20 lg:pb-32">
       <div className="relative z-10 max-w-[1440px] mx-auto px-4 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
@@ -14,31 +12,31 @@ export default function Hero() {
               verified
             </span>
             <span className="text-[12.5px] sm:text-label-md text-on-surface-variant whitespace-nowrap">
-              Phần mềm vận hành cho doanh nghiệp Việt
+              {t.badge}
             </span>
           </div>
 
           <h1 className="font-headline text-[32px] leading-[1.12] md:text-[44px] lg:text-headline-2xl font-bold tracking-tight text-on-surface text-balance">
-            Quản lý và tự động hóa vận hành cho doanh nghiệp Việt
+            {t.title}
           </h1>
 
           <p className="text-body-lg text-on-surface-variant max-w-lg mx-auto lg:mx-0">
-            DXFlow hợp nhất bán hàng, kho, khách hàng và tự động hóa các việc lặp lại — giúp đội ngũ của bạn làm ít thao tác, ít sai sót và tập trung vào tăng trưởng.
+            {t.subtitle}
           </p>
 
           <div className="flex flex-col sm:flex-row flex-wrap justify-center lg:justify-start gap-3 mt-2">
             <button className="px-7 py-4 bg-primary text-on-primary rounded-xl font-headline text-label-md flex items-center justify-center gap-2 shadow-sm hover:bg-primary-container transition-colors">
-              Bắt đầu ngay miễn phí
+              {t.ctaPrimary}
               <span className="material-symbols-outlined text-[20px]">arrow_forward</span>
             </button>
             <button className="px-7 py-4 bg-surface-container-lowest border border-outline-variant rounded-xl font-headline text-label-md text-on-surface flex items-center justify-center gap-2 hover:bg-surface-container-low transition-colors">
               <span className="material-symbols-outlined text-[20px] text-primary">play_circle</span>
-              Xem Demo
+              {t.ctaSecondary}
             </button>
           </div>
 
           <dl className="mt-6 flex flex-wrap justify-center lg:justify-start gap-x-8 gap-y-4 border-t border-outline-variant/40 pt-6">
-            {TRUST_STATS.map((stat) => (
+            {t.stats.map((stat) => (
               <div key={stat.label} className="flex flex-col-reverse">
                 <dt className="text-body-sm text-on-surface-variant">{stat.label}</dt>
                 <dd className="font-headline text-headline-md font-bold text-on-surface tabular-nums">
@@ -52,7 +50,7 @@ export default function Hero() {
         <div className="relative">
           <div className="relative bg-surface-container-lowest rounded-2xl border border-outline-variant/40 shadow-[0_16px_40px_-24px_rgba(11,28,48,0.25)] overflow-hidden aspect-[16/10]">
             <img
-              alt="Bảng điều khiển DXFlow hiển thị số liệu vận hành doanh nghiệp"
+              alt={t.imgAlt}
               className="w-full h-full object-cover"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqrSfnw-l96EXLl5dC59NtMYfCG5jiGSWKwLBdqeJCI1GjYIDG457FXYIhNnpcRitzVxQPwB0wccU96J-jg0pZOto1ZBu6SWTjiHnapRLVZBrQlAG98sNGUkeanBOFYZP1KmuujRYELm3IBuhwi6Uf8tCttyXQCi9X9-FX94_2hh00kOSYX-nNpmNq4LqVGZXr4Kt2EfJy2OcMmY94AClW1aFGSUkoPyiK0H8Y0tVWQVhKa7z0XGQQlw"
             />
@@ -60,14 +58,14 @@ export default function Hero() {
               <span className="material-symbols-outlined text-[20px] text-tertiary" style={{ fontVariationSettings: "'FILL' 1" }}>
                 check_circle
               </span>
-              <span className="font-headline text-label-md text-on-surface">Đồng bộ đơn hàng · Sapo, GHN</span>
+              <span className="font-headline text-label-md text-on-surface">{t.chipSync}</span>
             </div>
             <div className="absolute top-3 right-3 glass-panel px-4 py-3 rounded-xl border border-white/40 shadow-sm">
               <div className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-[20px] text-tertiary">trending_up</span>
                 <span className="font-headline text-headline-md font-bold text-on-surface tabular-nums">+37%</span>
               </div>
-              <span className="text-label-sm text-on-surface-variant">Doanh thu tháng này</span>
+              <span className="text-label-sm text-on-surface-variant">{t.chipRevenueLabel}</span>
             </div>
           </div>
         </div>
