@@ -8,7 +8,7 @@ export default function CTA() {
               Sẵn sàng nâng tầm doanh nghiệp?
             </h2>
             <p className="text-body-lg text-white/70">
-              Gia nhập cộng đồng 1,000+ doanh nghiệp SMB đang vận hành hiệu quả hơn cùng AI4W.
+              Gia nhập cộng đồng 1,000+ doanh nghiệp SMB đang vận hành hiệu quả hơn cùng DXFlow.
             </p>
             <div className="mt-2 flex flex-col sm:flex-row items-center gap-3">
               <button className="px-8 py-4 bg-white text-primary rounded-xl font-headline text-label-md flex items-center gap-2 shadow-sm hover:bg-white/90 transition-colors">

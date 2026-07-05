@@ -23,7 +23,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-body-lg text-on-surface-variant max-w-lg mx-auto lg:mx-0">
-            AI4W hợp nhất bán hàng, kho, khách hàng và tự động hóa các việc lặp lại — giúp đội ngũ của bạn làm ít thao tác, ít sai sót và tập trung vào tăng trưởng.
+            DXFlow hợp nhất bán hàng, kho, khách hàng và tự động hóa các việc lặp lại — giúp đội ngũ của bạn làm ít thao tác, ít sai sót và tập trung vào tăng trưởng.
           </p>
 
           <div className="flex flex-col sm:flex-row flex-wrap justify-center lg:justify-start gap-3 mt-2">
@@ -52,7 +52,7 @@ export default function Hero() {
         <div className="relative">
           <div className="relative bg-surface-container-lowest rounded-2xl border border-outline-variant/40 shadow-[0_16px_40px_-24px_rgba(11,28,48,0.25)] overflow-hidden aspect-[16/10]">
             <img
-              alt="Bảng điều khiển AI4W hiển thị số liệu vận hành doanh nghiệp"
+              alt="Bảng điều khiển DXFlow hiển thị số liệu vận hành doanh nghiệp"
               className="w-full h-full object-cover"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqrSfnw-l96EXLl5dC59NtMYfCG5jiGSWKwLBdqeJCI1GjYIDG457FXYIhNnpcRitzVxQPwB0wccU96J-jg0pZOto1ZBu6SWTjiHnapRLVZBrQlAG98sNGUkeanBOFYZP1KmuujRYELm3IBuhwi6Uf8tCttyXQCi9X9-FX94_2hh00kOSYX-nNpmNq4LqVGZXr4Kt2EfJy2OcMmY94AClW1aFGSUkoPyiK0H8Y0tVWQVhKa7z0XGQQlw"
             />

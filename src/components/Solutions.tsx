@@ -28,14 +28,14 @@ export default function Solutions() {
             Giải pháp chuyên biệt cho từng ngành hàng
           </h2>
           <p className="text-body-md text-white/60">
-            Mỗi lĩnh vực có những đặc thù riêng, AI4W được thiết kế để thích ứng và tối ưu hóa cho từng quy trình cụ thể.
+            Mỗi lĩnh vực có những đặc thù riêng, DXFlow được thiết kế để thích ứng và tối ưu hóa cho từng quy trình cụ thể.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
           <div className="lg:col-span-7 rounded-3xl overflow-hidden relative h-[400px] lg:h-[500px] shadow-2xl">
             <img
-              alt="Nhân viên spa sử dụng phần mềm AI4W tại quầy lễ tân"
+              alt="Nhân viên spa sử dụng phần mềm DXFlow tại quầy lễ tân"
               className="w-full h-full object-cover"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMmP95FVKoP8gM3awZxS-3YJOTeBEQ58JjDSC21WVhjS-bYw0aeazhG6VG9DVtPrD3SygK4Jn3VvmZLvgYuVSmaKA3Fk_owJD1f3dUddZDFZIyPdX19epQlLx16AAFpjhfrbfWiTGDDYC2BNMDSdywKcoNX1KZYgW7f4nUnmQuIoAnG2LULCYxrqddWxOB2RraTiBsQhYUBlVlukSxkqGCdG512a39x9OKIGmqv4M-fAlEr2CnV4R6fg"
             />

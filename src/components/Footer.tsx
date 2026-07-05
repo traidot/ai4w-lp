@@ -20,16 +20,27 @@ export default function Footer() {
     <footer className="w-full bg-surface-container border-t border-outline-variant/30">
       <div className="grid grid-cols-2 md:grid-cols-5 gap-8 py-14 px-4 md:px-8 max-w-[1440px] mx-auto">
         <div className="col-span-2 flex flex-col gap-4 max-w-xs">
-          <Link href="#" className="flex items-center gap-2" aria-label="AI4W trang chủ">
+          <Link href="#" className="flex items-center gap-2" aria-label="DXFlow trang chủ">
             <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-on-primary font-headline text-label-md font-bold">
-              A
+              D
             </span>
             <span className="font-headline text-headline-md font-bold text-on-surface tracking-tight">
-              AI4W
+              DXFlow
             </span>
           </Link>
           <p className="text-body-sm text-on-surface-variant">
             Phần mềm quản lý và tự động hóa vận hành cho doanh nghiệp SMB Việt Nam.
+          </p>
+          <p className="text-body-sm text-on-surface-variant">
+            Một dịch vụ của{" "}
+            <a
+              href="https://dxsolution.vn/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-headline font-semibold text-on-surface hover:text-primary transition-colors"
+            >
+              DXS Việt Nam
+            </a>
           </p>
         </div>
 
@@ -53,10 +64,17 @@ export default function Footer() {
 
       <div className="border-t border-outline-variant/30">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 py-6 px-4 md:px-8 max-w-[1440px] mx-auto">
-          <p className="text-body-sm text-on-surface-variant">© 2024 AI4W OS. All rights reserved.</p>
           <p className="text-body-sm text-on-surface-variant">
-            Được xây dựng cho doanh nghiệp SMB Việt Nam.
+            © 2024 DXFlow. Một dịch vụ của DXS Việt Nam.
           </p>
+          <a
+            href="https://dxsolution.vn/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-body-sm text-on-surface-variant hover:text-primary transition-colors"
+          >
+            dxsolution.vn
+          </a>
         </div>
       </div>
     </footer>

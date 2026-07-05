@@ -35,7 +35,7 @@ export default function Features() {
             Một phần mềm, thay cho hàng loạt công cụ rời rạc
           </h2>
           <p className="text-body-md text-on-surface-variant">
-            Thay vì dùng nhiều app tách rời, AI4W gom toàn bộ việc vận hành về một nơi và tự động hóa phần lặp lại.
+            Thay vì dùng nhiều app tách rời, DXFlow gom toàn bộ việc vận hành về một nơi và tự động hóa phần lặp lại.
           </p>
         </div>
 

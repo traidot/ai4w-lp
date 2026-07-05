@@ -1,7 +1,7 @@
 const TESTIMONIALS = [
   {
     quote:
-      "AI4W thay thế gần như toàn bộ việc nhắc lịch và chăm sóc khách cũ. Nhân viên lễ tân giờ tập trung phục vụ tại quầy, tỷ lệ khách quay lại tăng rõ rệt.",
+      "DXFlow thay thế gần như toàn bộ việc nhắc lịch và chăm sóc khách cũ. Nhân viên lễ tân giờ tập trung phục vụ tại quầy, tỷ lệ khách quay lại tăng rõ rệt.",
     name: "Nguyễn Thu Hà",
     role: "Chủ chuỗi Spa",
     company: "Hà Anh Beauty",
@@ -41,7 +41,7 @@ export default function Testimonials() {
             Được các doanh nghiệp SMB tin tưởng vận hành mỗi ngày
           </h2>
           <p className="text-body-md text-on-surface-variant">
-            Từ spa, bán lẻ đến agency — AI4W đang giúp hàng nghìn đội ngũ làm việc ít hơn mà hiệu quả hơn.
+            Từ spa, bán lẻ đến agency — DXFlow đang giúp hàng nghìn đội ngũ làm việc ít hơn mà hiệu quả hơn.
           </p>
         </div>
 

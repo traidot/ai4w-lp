@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "AI4W - Hệ điều hành cho công việc",
+  title: "DXFlow - Hệ điều hành cho công việc",
   description: "Phần mềm quản lý và tự động hóa vận hành cho doanh nghiệp SMB Việt Nam.",
 };
 

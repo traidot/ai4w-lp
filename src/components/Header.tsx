@@ -30,12 +30,12 @@ export default function Header() {
       }`}
     >
       <div className="flex justify-between items-center h-full px-4 md:px-8 max-w-[1440px] mx-auto">
-        <Link href="#" className="flex items-center gap-2" aria-label="AI4W trang chủ">
+        <Link href="#" className="flex items-center gap-2" aria-label="DXFlow trang chủ">
           <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-on-primary font-headline text-label-md font-bold">
-            A
+            D
           </span>
           <span className="font-headline text-headline-md font-bold text-on-surface tracking-tight">
-            AI4W
+            DXFlow
           </span>
         </Link>
 
