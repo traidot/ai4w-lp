@@ -1,5 +1,5 @@
 const TRUST_STATS = [
-  { value: "1,000+", label: "Doanh nghiệp SMB" },
+  { value: "1,000+", label: "Doanh nghiệp vừa & nhỏ" },
   { value: "90%", label: "Tác vụ tự động hóa" },
   { value: "24/7", label: "Vận hành liên tục" },
 ];

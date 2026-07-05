@@ -14,7 +14,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "DXFlow - Hệ điều hành cho công việc",
-  description: "Phần mềm quản lý và tự động hóa vận hành cho doanh nghiệp SMB Việt Nam.",
+  description: "Phần mềm quản lý và tự động hóa vận hành cho doanh nghiệp vừa và nhỏ tại Việt Nam.",
 };
 
 export default function RootLayout({

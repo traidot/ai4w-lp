@@ -7,11 +7,11 @@ const LINK_GROUPS = [
   },
   {
     title: "Công ty",
-    links: ["About Us", "Careers", "Support"],
+    links: ["Về chúng tôi", "Tuyển dụng", "Hỗ trợ"],
   },
   {
     title: "Pháp lý",
-    links: ["Privacy Policy", "Terms of Service"],
+    links: ["Chính sách bảo mật", "Điều khoản dịch vụ"],
   },
 ];
 
@@ -29,7 +29,7 @@ export default function Footer() {
             </span>
           </Link>
           <p className="text-body-sm text-on-surface-variant">
-            Phần mềm quản lý và tự động hóa vận hành cho doanh nghiệp SMB Việt Nam.
+            Phần mềm quản lý và tự động hóa vận hành cho doanh nghiệp vừa và nhỏ tại Việt Nam.
           </p>
           <p className="text-body-sm text-on-surface-variant">
             Một dịch vụ của{" "}

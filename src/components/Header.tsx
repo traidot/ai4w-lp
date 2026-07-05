@@ -4,9 +4,9 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 const NAV_LINKS = [
-  { label: "Features", href: "#features" },
-  { label: "Solutions", href: "#solutions" },
-  { label: "Pricing", href: "#pricing" },
+  { label: "Tính năng", href: "#features" },
+  { label: "Giải pháp", href: "#solutions" },
+  { label: "Bảng giá", href: "#pricing" },
 ];
 
 export default function Header() {
@@ -56,7 +56,7 @@ export default function Header() {
             Đăng nhập
           </button>
           <button className="font-headline text-label-md px-5 py-2.5 bg-primary text-on-primary rounded-lg font-semibold shadow-sm hover:bg-primary-container transition-colors">
-            Try for free
+            Dùng thử miễn phí
           </button>
         </div>
       </div>

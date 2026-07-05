@@ -2,14 +2,14 @@ const SIDE_SOLUTIONS = [
   {
     icon: "storefront",
     iconClass: "text-primary-fixed-dim",
-    title: "Bán lẻ (Retail)",
+    title: "Bán lẻ",
     description:
       "Quản lý kho chính xác, dự báo hàng tồn và tích hợp vận chuyển GHN/AhaMove tức thì.",
   },
   {
     icon: "campaign",
     iconClass: "text-tertiary-fixed-dim",
-    title: "Marketing Agency",
+    title: "Công ty Marketing",
     description:
       "Quản lý dự án tập trung, tự động hóa báo cáo và phân bổ nguồn lực nhân sự hiệu quả.",
   },

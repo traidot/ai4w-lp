@@ -3,8 +3,8 @@ const TESTIMONIALS = [
     quote:
       "DXFlow thay thế gần như toàn bộ việc nhắc lịch và chăm sóc khách cũ. Nhân viên lễ tân giờ tập trung phục vụ tại quầy, tỷ lệ khách quay lại tăng rõ rệt.",
     name: "Nguyễn Thu Hà",
-    role: "Chủ chuỗi Spa",
-    company: "Hà Anh Beauty",
+    role: "Chủ chuỗi spa",
+    company: "Thẩm mỹ viện Hà Anh",
     initials: "HA",
     avatarClass: "bg-primary/12 text-primary",
     metric: { value: "+42%", label: "Khách quay lại" },
@@ -14,20 +14,20 @@ const TESTIMONIALS = [
       "Đồng bộ tồn kho giữa Sapo và kho thực tế theo thời gian thực giúp chúng tôi hết cảnh bán vượt hàng. Báo cáo cuối ngày tự chạy, không phải ngồi nhập tay nữa.",
     name: "Trần Quốc Bảo",
     role: "Giám đốc vận hành",
-    company: "Bảo Store Retail",
+    company: "Cửa hàng Quốc Bảo",
     initials: "QB",
     avatarClass: "bg-tertiary/12 text-tertiary",
     metric: { value: "12h", label: "Tiết kiệm mỗi tuần" },
   },
   {
     quote:
-      "Phần mềm tự phân bổ đầu việc và tổng hợp báo cáo chiến dịch cho từng client. Team account nhẹ đầu hẳn, chúng tôi nhận thêm dự án mà không cần tuyển gấp.",
+      "Phần mềm tự phân bổ đầu việc và tổng hợp báo cáo chiến dịch cho từng khách hàng. Đội ngũ nhẹ đầu hẳn, chúng tôi nhận thêm dự án mà không cần tuyển gấp.",
     name: "Lê Minh Châu",
-    role: "Founder",
-    company: "Chau Digital Agency",
+    role: "Nhà sáng lập",
+    company: "Công ty Minh Châu Media",
     initials: "MC",
     avatarClass: "bg-secondary/12 text-secondary",
-    metric: { value: "3×", label: "Năng suất team" },
+    metric: { value: "3×", label: "Năng suất đội ngũ" },
   },
 ];
 
@@ -38,10 +38,10 @@ export default function Testimonials() {
         <div className="text-center max-w-2xl mx-auto mb-14">
           <p className="eyebrow mb-3">Khách hàng nói gì</p>
           <h2 className="font-headline text-headline-lg text-on-surface mb-4 text-balance">
-            Được các doanh nghiệp SMB tin tưởng vận hành mỗi ngày
+            Được các doanh nghiệp vừa và nhỏ tin tưởng vận hành mỗi ngày
           </h2>
           <p className="text-body-md text-on-surface-variant">
-            Từ spa, bán lẻ đến agency — DXFlow đang giúp hàng nghìn đội ngũ làm việc ít hơn mà hiệu quả hơn.
+            Từ spa, bán lẻ đến công ty marketing — DXFlow đang giúp hàng nghìn đội ngũ làm việc ít hơn mà hiệu quả hơn.
           </p>
         </div>
 
