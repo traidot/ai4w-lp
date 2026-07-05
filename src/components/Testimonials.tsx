@@ -21,7 +21,7 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      "Các Agent tự phân bổ task và tổng hợp báo cáo chiến dịch cho từng client. Team account nhẹ đầu hẳn, chúng tôi nhận thêm dự án mà không cần tuyển gấp.",
+      "Phần mềm tự phân bổ đầu việc và tổng hợp báo cáo chiến dịch cho từng client. Team account nhẹ đầu hẳn, chúng tôi nhận thêm dự án mà không cần tuyển gấp.",
     name: "Lê Minh Châu",
     role: "Founder",
     company: "Chau Digital Agency",
@@ -49,7 +49,7 @@ export default function Testimonials() {
           {TESTIMONIALS.map((item) => (
             <figure
               key={item.name}
-              className="flex flex-col bg-surface-container-lowest p-8 rounded-2xl border border-outline-variant/40 hover:border-primary/30 hover:shadow-[0_20px_40px_-24px_rgba(11,28,48,0.35)] transition-all duration-300"
+              className="flex flex-col bg-surface-container-lowest p-8 rounded-2xl border border-outline-variant/40 hover:border-primary/30 transition-colors"
             >
               <div className="flex gap-0.5 mb-5 text-primary" aria-label="Đánh giá 5 trên 5 sao">
                 {Array.from({ length: 5 }).map((_, i) => (

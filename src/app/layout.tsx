@@ -14,7 +14,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "AI4W - Hệ điều hành cho công việc",
-  description: "Giải pháp AI & Automation toàn diện cho doanh nghiệp SMB Việt Nam.",
+  description: "Phần mềm quản lý và tự động hóa vận hành cho doanh nghiệp SMB Việt Nam.",
 };
 
 export default function RootLayout({

@@ -29,7 +29,7 @@ export default function Footer() {
             </span>
           </Link>
           <p className="text-body-sm text-on-surface-variant">
-            Hệ điều hành cho công việc thế hệ mới. Tiên phong giải pháp AI &amp; Automation tại Việt Nam.
+            Phần mềm quản lý và tự động hóa vận hành cho doanh nghiệp SMB Việt Nam.
           </p>
         </div>
 

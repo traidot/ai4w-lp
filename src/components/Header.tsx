@@ -55,7 +55,7 @@ export default function Header() {
           <button className="hidden md:block font-headline text-label-md px-4 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-on-surface/[0.04] transition-colors">
             Đăng nhập
           </button>
-          <button className="font-headline text-label-md px-5 py-2.5 bg-primary text-on-primary rounded-lg font-semibold shadow-sm shadow-primary/20 hover:shadow-md hover:shadow-primary/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200">
+          <button className="font-headline text-label-md px-5 py-2.5 bg-primary text-on-primary rounded-lg font-semibold shadow-sm hover:bg-primary-container transition-colors">
             Try for free
           </button>
         </div>
