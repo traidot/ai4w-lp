@@ -42,15 +42,18 @@ export default function Header({ nav, lang }: { nav: Dictionary["nav"]; lang: Lo
       }`}
     >
       <div className="flex justify-between items-center h-full px-4 md:px-8 max-w-[1440px] mx-auto">
-        <Link href={`/${lang}`} className="flex items-center" aria-label={nav.home}>
+        <Link href={`/${lang}`} className="flex items-center gap-2" aria-label={nav.home}>
           <Image
-            src="/dxbiz-logo.png"
-            alt="DXBiz"
-            width={451}
-            height={548}
+            src="/dxbiz-mark.png"
+            alt=""
+            width={36}
+            height={36}
             priority
-            className="h-10 w-auto"
+            className="h-9 w-9"
           />
+          <span className="font-headline text-headline-md font-bold text-on-surface tracking-tight">
+            DXBiz
+          </span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-1">
