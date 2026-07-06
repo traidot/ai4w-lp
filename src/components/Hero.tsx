@@ -64,7 +64,7 @@ export default function Hero({ dict }: { dict: Dictionary }) {
             <div className="absolute top-3 right-3 glass-panel px-4 py-3 rounded-xl border border-white/40 shadow-sm">
               <div className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-[20px] text-tertiary">trending_up</span>
-                <span className="font-headline text-headline-md font-bold text-on-surface tabular-nums">+37%</span>
+                <span className="font-headline text-headline-md font-bold text-tertiary tabular-nums">+37%</span>
               </div>
               <span className="text-label-sm text-on-surface-variant">{t.chipRevenueLabel}</span>
             </div>

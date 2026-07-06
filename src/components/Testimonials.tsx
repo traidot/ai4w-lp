@@ -79,7 +79,7 @@ export default function Testimonials({ dict }: { dict: Dictionary }) {
                     </span>
                   </figcaption>
                   <div className="text-right">
-                    <div className="font-headline text-headline-md font-bold text-primary tabular-nums leading-none">
+                    <div className="font-headline text-headline-md font-bold text-tertiary tabular-nums leading-none">
                       {person.metricValue}
                     </div>
                     <div className="text-label-sm text-on-surface-variant mt-1">{item.metricLabel}</div>
