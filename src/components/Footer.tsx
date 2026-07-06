@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { Dictionary, Locale } from "@/i18n/dictionaries";
 
@@ -9,9 +10,7 @@ export default function Footer({ dict, lang }: { dict: Dictionary; lang: Locale 
       <div className="grid grid-cols-2 md:grid-cols-5 gap-8 py-14 px-4 md:px-8 max-w-[1440px] mx-auto">
         <div className="col-span-2 flex flex-col gap-4 max-w-xs">
           <Link href={`/${lang}`} className="flex items-center gap-2" aria-label={dict.nav.home}>
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-on-primary font-headline text-label-md font-bold">
-              D
-            </span>
+            <Image src="/dxbiz-mark.png" alt="" width={32} height={32} className="h-8 w-8" />
             <span className="font-headline text-headline-md font-bold text-on-surface tracking-tight">
               DXBiz
             </span>
