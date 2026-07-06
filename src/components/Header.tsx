@@ -55,8 +55,8 @@ export default function Header({ nav, lang }: { nav: Dictionary["nav"]; lang: Lo
             <span className="font-headline text-[20px] font-bold text-on-surface tracking-tight">
               DXBiz
             </span>
-            <span className="hidden sm:block font-headline text-[8.5px] font-semibold uppercase tracking-[0.13em] text-on-surface-variant/70 mt-1">
-              Digital Transformation for Business
+            <span className="hidden sm:block font-headline text-[9px] font-semibold uppercase tracking-[0.2em] text-on-surface-variant/70 mt-1">
+              Digital Transformation
             </span>
           </span>
         </Link>
