@@ -1,8 +1,12 @@
 import { NextResponse } from "next/server";
 
-const CONTACT_EMAIL = process.env.CONTACT_EMAIL ?? "truongsonqk3@gmail.com";
+const CONTACT_EMAIL = process.env.CONTACT_EMAIL;
 
 export async function POST(request: Request) {
+  if (!CONTACT_EMAIL) {
+    return NextResponse.json({ ok: false }, { status: 503 });
+  }
+
   const data = await request.json().catch(() => null);
 
   const name = typeof data?.name === "string" ? data.name.trim() : "";
