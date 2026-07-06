@@ -96,9 +96,6 @@ export default function Header({ nav, lang }: { nav: Dictionary["nav"]; lang: Lo
             ))}
           </div>
 
-          <button className="hidden md:block font-headline text-label-md px-4 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-on-surface/[0.04] transition-colors">
-            {nav.login}
-          </button>
           <button
             type="button"
             onClick={openContact}
