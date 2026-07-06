@@ -1,4 +1,5 @@
 import type { Dictionary } from "@/i18n/dictionaries";
+import ContactButton from "./ContactButton";
 
 export default function Hero({ dict }: { dict: Dictionary }) {
   const t = dict.hero;
@@ -25,10 +26,10 @@ export default function Hero({ dict }: { dict: Dictionary }) {
           </p>
 
           <div className="flex flex-col sm:flex-row flex-wrap justify-center lg:justify-start gap-3 mt-2">
-            <button className="px-7 py-4 bg-primary text-on-primary rounded-xl font-headline text-label-md flex items-center justify-center gap-2 shadow-sm hover:bg-primary-container transition-colors">
+            <ContactButton className="px-7 py-4 bg-primary text-on-primary rounded-xl font-headline text-label-md flex items-center justify-center gap-2 shadow-sm hover:bg-primary-container transition-colors">
               {t.ctaPrimary}
               <span className="material-symbols-outlined text-[20px]">arrow_forward</span>
-            </button>
+            </ContactButton>
             <button className="px-7 py-4 bg-surface-container-lowest border border-outline-variant rounded-xl font-headline text-label-md text-on-surface flex items-center justify-center gap-2 hover:bg-surface-container-low transition-colors">
               <span className="material-symbols-outlined text-[20px] text-primary">play_circle</span>
               {t.ctaSecondary}

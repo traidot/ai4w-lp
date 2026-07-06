@@ -1,4 +1,5 @@
 import type { Dictionary } from "@/i18n/dictionaries";
+import ContactButton from "./ContactButton";
 
 export default function CTA({ dict }: { dict: Dictionary }) {
   const t = dict.cta;
@@ -12,14 +13,11 @@ export default function CTA({ dict }: { dict: Dictionary }) {
               {t.title}
             </h2>
             <p className="text-body-lg text-white/70">{t.subtitle}</p>
-            <div className="mt-2 flex flex-col sm:flex-row items-center gap-3">
-              <button className="px-8 py-4 bg-white text-primary rounded-xl font-headline text-label-md flex items-center gap-2 shadow-sm hover:bg-white/90 transition-colors">
+            <div className="mt-2">
+              <ContactButton className="px-8 py-4 bg-white text-primary rounded-xl font-headline text-label-md flex items-center gap-2 shadow-sm hover:bg-white/90 transition-colors">
                 {t.primary}
                 <span className="material-symbols-outlined text-[20px]">arrow_forward</span>
-              </button>
-              <button className="px-8 py-4 rounded-xl font-headline text-label-md text-white border border-white/30 hover:bg-white/10 transition-colors">
-                {t.secondary}
-              </button>
+              </ContactButton>
             </div>
             <p className="flex items-center gap-1.5 text-label-sm text-white/60 mt-2">
               <span className="material-symbols-outlined text-[16px]">check_circle</span>

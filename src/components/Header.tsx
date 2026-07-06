@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { Dictionary, Locale } from "@/i18n/dictionaries";
+import { useContact } from "./ContactModal";
 
 const LOCALES: { code: Locale; label: string }[] = [
   { code: "vi", label: "VI" },
@@ -13,6 +14,7 @@ const LOCALES: { code: Locale; label: string }[] = [
 export default function Header({ nav, lang }: { nav: Dictionary["nav"]; lang: Locale }) {
   const [isScrolled, setIsScrolled] = useState(false);
   const pathname = usePathname();
+  const { open: openContact } = useContact();
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 24);
@@ -85,8 +87,12 @@ export default function Header({ nav, lang }: { nav: Dictionary["nav"]; lang: Lo
           <button className="hidden md:block font-headline text-label-md px-4 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-on-surface/[0.04] transition-colors">
             {nav.login}
           </button>
-          <button className="font-headline text-label-md px-4 sm:px-5 py-2.5 bg-primary text-on-primary rounded-lg font-semibold shadow-sm hover:bg-primary-container transition-colors">
-            {nav.tryFree}
+          <button
+            type="button"
+            onClick={openContact}
+            className="font-headline text-label-md px-4 sm:px-5 py-2.5 bg-primary text-on-primary rounded-lg font-semibold shadow-sm hover:bg-primary-container transition-colors"
+          >
+            {nav.contact}
           </button>
         </div>
       </div>

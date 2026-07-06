@@ -8,7 +8,7 @@
     "solutions": "Giải pháp",
     "pricing": "Bảng giá",
     "login": "Đăng nhập",
-    "tryFree": "Dùng thử miễn phí",
+    "contact": "Liên hệ",
     "switchLanguage": "Chuyển ngôn ngữ",
     "home": "DXFlow trang chủ"
   },
@@ -16,7 +16,7 @@
     "badge": "Phần mềm vận hành cho doanh nghiệp Việt",
     "title": "Quản lý và tự động hóa vận hành cho doanh nghiệp Việt",
     "subtitle": "DXFlow hợp nhất bán hàng, kho, khách hàng và tự động hóa các việc lặp lại — giúp đội ngũ của bạn làm ít thao tác, ít sai sót và tập trung vào tăng trưởng.",
-    "ctaPrimary": "Bắt đầu ngay miễn phí",
+    "ctaPrimary": "Liên hệ tư vấn",
     "ctaSecondary": "Xem Demo",
     "imgAlt": "Bảng điều khiển DXFlow hiển thị số liệu vận hành doanh nghiệp",
     "chipSync": "Đồng bộ đơn hàng · Sapo, GHN",
@@ -111,8 +111,26 @@
     "title": "Sẵn sàng nâng tầm doanh nghiệp?",
     "subtitle": "Gia nhập cộng đồng 1,000+ doanh nghiệp vừa và nhỏ đang vận hành hiệu quả hơn cùng DXFlow.",
     "primary": "Liên hệ tư vấn 1-1",
-    "secondary": "Bắt đầu miễn phí",
-    "note": "Không cần thẻ tín dụng · Miễn phí tư vấn giải pháp quy trình"
+    "note": "Miễn phí tư vấn giải pháp quy trình · Gọi lại trong 24h làm việc"
+  },
+  "contact": {
+    "title": "Liên hệ tư vấn",
+    "subtitle": "Để lại thông tin, chúng tôi sẽ gọi lại tư vấn miễn phí trong 24 giờ làm việc.",
+    "name": "Họ và tên",
+    "namePlaceholder": "Nguyễn Văn A",
+    "phone": "Số điện thoại",
+    "phonePlaceholder": "09xx xxx xxx",
+    "company": "Tên doanh nghiệp",
+    "companyPlaceholder": "Không bắt buộc",
+    "message": "Nhu cầu của bạn",
+    "messagePlaceholder": "Ví dụ: cần quản lý spa 3 chi nhánh, tự động nhắc lịch hẹn…",
+    "optional": "không bắt buộc",
+    "submit": "Gửi thông tin",
+    "submitting": "Đang gửi…",
+    "successTitle": "Đã nhận thông tin!",
+    "successDesc": "Cảm ơn bạn. Chúng tôi sẽ gọi lại tư vấn trong thời gian sớm nhất.",
+    "close": "Đóng",
+    "error": "Gửi không thành công. Vui lòng thử lại."
   },
   "footer": {
     "tagline": "Phần mềm quản lý và tự động hóa vận hành cho doanh nghiệp vừa và nhỏ tại Việt Nam.",

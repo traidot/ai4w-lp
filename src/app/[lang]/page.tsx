@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "@/i18n/dictionaries";
+import { ContactProvider } from "@/components/ContactModal";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
@@ -20,7 +21,7 @@ export default async function Home({
   const dict = getDictionary(lang);
 
   return (
-    <>
+    <ContactProvider dict={dict.contact}>
       <Header nav={dict.nav} lang={lang} />
       <main className="pt-16 flex-1">
         <Hero dict={dict} />
@@ -32,6 +33,6 @@ export default async function Home({
         <CTA dict={dict} />
       </main>
       <Footer dict={dict} lang={lang} />
-    </>
+    </ContactProvider>
   );
 }

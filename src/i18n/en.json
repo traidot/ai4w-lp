@@ -8,7 +8,7 @@
     "solutions": "Solutions",
     "pricing": "Pricing",
     "login": "Log in",
-    "tryFree": "Try for free",
+    "contact": "Contact us",
     "switchLanguage": "Switch language",
     "home": "DXFlow home"
   },
@@ -16,7 +16,7 @@
     "badge": "Operations software for Vietnamese businesses",
     "title": "Manage and automate operations for Vietnamese businesses",
     "subtitle": "DXFlow unifies sales, inventory and customers, and automates repetitive work — so your team does less manual work, makes fewer mistakes, and focuses on growth.",
-    "ctaPrimary": "Start for free",
+    "ctaPrimary": "Contact us",
     "ctaSecondary": "Watch demo",
     "imgAlt": "DXFlow dashboard showing business operations metrics",
     "chipSync": "Orders synced · Sapo, GHN",
@@ -111,8 +111,26 @@
     "title": "Ready to level up your business?",
     "subtitle": "Join 1,000+ small and medium businesses already operating more efficiently with DXFlow.",
     "primary": "Book a 1-on-1 consultation",
-    "secondary": "Start for free",
-    "note": "No credit card required · Free process consultation"
+    "note": "Free process consultation · We call back within 24 business hours"
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "Leave your details and we'll call you back with a free consultation within 24 business hours.",
+    "name": "Full name",
+    "namePlaceholder": "John Smith",
+    "phone": "Phone number",
+    "phonePlaceholder": "+84 …",
+    "company": "Company name",
+    "companyPlaceholder": "Optional",
+    "message": "What do you need?",
+    "messagePlaceholder": "E.g. managing a 3-branch spa, automated appointment reminders…",
+    "optional": "optional",
+    "submit": "Send",
+    "submitting": "Sending…",
+    "successTitle": "Got it!",
+    "successDesc": "Thank you. We'll call you back as soon as possible.",
+    "close": "Close",
+    "error": "Something went wrong. Please try again."
   },
   "footer": {
     "tagline": "Management and operations automation software for small and medium businesses in Vietnam.",
