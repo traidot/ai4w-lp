@@ -1,9 +1,14 @@
 import { NextResponse } from "next/server";
 
-const CONTACT_EMAIL = process.env.CONTACT_EMAIL;
+const TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+const CHAT_ID = process.env.TELEGRAM_CHAT_ID;
+
+function esc(s: string) {
+  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
 
 export async function POST(request: Request) {
-  if (!CONTACT_EMAIL) {
+  if (!TOKEN || !CHAT_ID) {
     return NextResponse.json({ ok: false }, { status: 503 });
   }
 
@@ -23,32 +28,26 @@ export async function POST(request: Request) {
   const company = typeof data.company === "string" ? data.company.trim() : "";
   const message = typeof data.message === "string" ? data.message.trim() : "";
 
-  // FormSubmit rejects server-side calls without a Referer/Origin, so pass the site's own.
-  const origin = request.headers.get("origin") ?? new URL(request.url).origin;
+  const text =
+    `🔔 <b>Khách liên hệ DXBiz</b>\n\n` +
+    `👤 <b>Họ tên:</b> ${esc(name)}\n` +
+    `📞 <b>SĐT:</b> <code>${esc(phone)}</code>\n` +
+    `🏢 <b>Doanh nghiệp:</b> ${company ? esc(company) : "—"}\n` +
+    `💬 <b>Nhu cầu:</b> ${message ? esc(message) : "—"}`;
 
-  const res = await fetch(`https://formsubmit.co/ajax/${CONTACT_EMAIL}`, {
+  const res = await fetch(`https://api.telegram.org/bot${TOKEN}/sendMessage`, {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Accept: "application/json",
-      Referer: `${origin}/`,
-      Origin: origin,
-    },
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      _subject: `[DXBiz] Khách liên hệ tư vấn: ${name}`,
-      _template: "table",
-      _captcha: "false",
-      "Họ tên": name,
-      "Số điện thoại": phone,
-      "Doanh nghiệp": company || "(không điền)",
-      "Nhu cầu": message || "(không điền)",
+      chat_id: CHAT_ID,
+      text,
+      parse_mode: "HTML",
+      disable_web_page_preview: true,
     }),
   });
 
-  const result = await res.json().catch(() => null);
-  const ok = res.ok && String(result?.success) === "true";
-  if (!ok) {
-    console.error("FormSubmit failed", res.status, result);
+  if (!res.ok) {
+    console.error("Telegram send failed", res.status, await res.text().catch(() => ""));
     return NextResponse.json({ ok: false }, { status: 502 });
   }
   return NextResponse.json({ ok: true });
