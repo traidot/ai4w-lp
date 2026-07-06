@@ -1,36 +1,64 @@
 {
   "meta": {
-    "title": "DXFlow - Hệ điều hành cho công việc",
-    "description": "Phần mềm quản lý và tự động hóa vận hành cho doanh nghiệp vừa và nhỏ tại Việt Nam."
+    "title": "DXBiz - Bộ giải pháp cho doanh nghiệp vừa và nhỏ",
+    "description": "Bộ giải pháp phần mềm quản lý, bán hàng và tự động hóa cho doanh nghiệp vừa và nhỏ tại Việt Nam. Gồm DXFlow, OrderHub, PageHub và SEOHub."
   },
   "nav": {
-    "features": "Tính năng",
+    "products": "Sản phẩm",
+    "features": "Vì sao DXBiz",
     "solutions": "Giải pháp",
     "pricing": "Bảng giá",
     "login": "Đăng nhập",
     "contact": "Liên hệ",
     "switchLanguage": "Chuyển ngôn ngữ",
-    "home": "DXFlow trang chủ"
+    "home": "DXBiz trang chủ"
   },
   "hero": {
-    "badge": "Phần mềm vận hành cho doanh nghiệp Việt",
-    "title": "Quản lý và tự động hóa vận hành cho doanh nghiệp Việt",
-    "subtitle": "DXFlow hợp nhất bán hàng, kho, khách hàng và tự động hóa các việc lặp lại — giúp đội ngũ của bạn làm ít thao tác, ít sai sót và tập trung vào tăng trưởng.",
+    "badge": "Bộ giải pháp cho doanh nghiệp vừa và nhỏ",
+    "title": "Trọn bộ giải pháp phần mềm cho doanh nghiệp Việt",
+    "subtitle": "DXBiz gồm nhiều sản phẩm quản lý và tự động hóa — từ vận hành, đơn hàng, trang bán hàng đến SEO — giúp doanh nghiệp vừa và nhỏ số hóa và tăng trưởng nhanh hơn.",
     "ctaPrimary": "Liên hệ tư vấn",
     "ctaSecondary": "Xem Demo",
-    "imgAlt": "Bảng điều khiển DXFlow hiển thị số liệu vận hành doanh nghiệp",
+    "imgAlt": "Bảng điều khiển DXBiz hiển thị số liệu vận hành doanh nghiệp",
     "chipSync": "Đồng bộ đơn hàng · Sapo, GHN",
     "chipRevenueLabel": "Doanh thu tháng này",
     "stats": [
       { "value": "1,000+", "label": "Doanh nghiệp vừa & nhỏ" },
-      { "value": "90%", "label": "Tác vụ tự động hóa" },
+      { "value": "4", "label": "Sản phẩm tích hợp" },
       { "value": "24/7", "label": "Vận hành liên tục" }
     ]
   },
+  "products": {
+    "eyebrow": "Bộ giải pháp DXBiz",
+    "title": "Nhiều sản phẩm, một hệ sinh thái",
+    "subtitle": "Mỗi sản phẩm giải quyết một bài toán của doanh nghiệp, kết nối liền mạch trong cùng một tài khoản DXBiz.",
+    "items": [
+      {
+        "name": "DXFlow",
+        "tag": "AI For Work",
+        "description": "Trợ lý AI cho công việc — tự động hóa quy trình và kết nối với hàng loạt phần mềm bạn đang dùng, không chỉ riêng sản phẩm của DXBiz."
+      },
+      {
+        "name": "OrderHub",
+        "tag": "Quản lý đơn hàng",
+        "description": "Quản lý đơn hàng và bán hàng đa kênh tập trung, đồng bộ tồn kho và vận chuyển theo thời gian thực."
+      },
+      {
+        "name": "PageHub",
+        "tag": "Trang bán hàng",
+        "description": "Tạo và quản lý landing page, trang bán hàng chuyên nghiệp mà không cần biết lập trình."
+      },
+      {
+        "name": "SEOHub",
+        "tag": "Tối ưu SEO",
+        "description": "Theo dõi và tối ưu thứ hạng tìm kiếm, tăng lưu lượng truy cập tự nhiên cho website."
+      }
+    ]
+  },
   "features": {
-    "eyebrow": "Tính năng cốt lõi",
-    "title": "Một phần mềm, thay cho hàng loạt công cụ rời rạc",
-    "subtitle": "Thay vì dùng nhiều app tách rời, DXFlow gom toàn bộ việc vận hành về một nơi và tự động hóa phần lặp lại.",
+    "eyebrow": "Vì sao chọn DXBiz",
+    "title": "Tất cả trong một hệ sinh thái, không còn công cụ rời rạc",
+    "subtitle": "Thay vì dùng nhiều app tách rời, DXBiz gom mọi sản phẩm về một nơi — dùng chung dữ liệu, đăng nhập một lần.",
     "items": [
       {
         "title": "Tự động hóa",
@@ -42,34 +70,18 @@
       },
       {
         "title": "Kết nối & Đồng bộ",
-        "description": "Tích hợp sâu hệ sinh thái Việt Nam: Sapo, MISA, GHN, VietQR. Dữ liệu đồng bộ giữa các nền tảng tức thì."
+        "description": "Tích hợp sâu hệ sinh thái Việt Nam: Sapo, MISA, GHN, VietQR. Dữ liệu đồng bộ giữa các sản phẩm tức thì."
       }
     ]
-  },
-  "architecture": {
-    "eyebrow": "Nền tảng hợp nhất",
-    "title": "Một nền tảng cho toàn bộ nghiệp vụ vận hành",
-    "subtitle": "Từ bán hàng, kho, khách hàng đến tự động hóa — mọi thứ kết nối trong cùng một hệ thống, không còn dữ liệu rời rạc.",
-    "sales": "Bán hàng đa kênh",
-    "salesDesc": "Đơn hàng từ cửa hàng, website và sàn gộp về một nơi.",
-    "inventory": "Quản lý kho",
-    "inventoryDesc": "Tồn kho chính xác, cảnh báo hết hàng.",
-    "crm": "Khách hàng & CRM",
-    "crmDesc": "Lịch sử mua, chăm sóc và nhắc hẹn.",
-    "automation": "Tự động hóa & Nhắc việc",
-    "automationDesc": "Quy trình lặp lại tự chạy, đúng người đúng lúc.",
-    "security": "Bảo mật & Phân quyền",
-    "securityDesc": "Dữ liệu được mã hóa và phân quyền theo vai trò, đảm bảo thông tin doanh nghiệp luôn an toàn.",
-    "securityBadge": "Dữ liệu được mã hóa"
   },
   "solutions": {
     "eyebrow": "Giải pháp theo ngành",
     "title": "Giải pháp chuyên biệt cho từng ngành hàng",
-    "subtitle": "Mỗi lĩnh vực có những đặc thù riêng, DXFlow được thiết kế để thích ứng và tối ưu hóa cho từng quy trình cụ thể.",
+    "subtitle": "Mỗi lĩnh vực có những đặc thù riêng, DXBiz được thiết kế để thích ứng và tối ưu hóa cho từng quy trình cụ thể.",
     "spaBadge": "Giải pháp Spa & Salon",
     "spaTitle": "Quản lý lịch hẹn & CRM tự động",
     "spaDesc": "Tự động hóa 90% quy trình đặt lịch, nhắc hẹn và chăm sóc khách hàng cũ qua Zalo OA.",
-    "spaImgAlt": "Nhân viên spa sử dụng phần mềm DXFlow tại quầy lễ tân",
+    "spaImgAlt": "Nhân viên spa sử dụng phần mềm DXBiz tại quầy lễ tân",
     "items": [
       {
         "title": "Bán lẻ",
@@ -87,7 +99,7 @@
   "testimonials": {
     "eyebrow": "Khách hàng nói gì",
     "title": "Được các doanh nghiệp vừa và nhỏ tin tưởng vận hành mỗi ngày",
-    "subtitle": "Từ spa, bán lẻ đến công ty marketing — DXFlow đang giúp hàng nghìn đội ngũ làm việc ít hơn mà hiệu quả hơn.",
+    "subtitle": "Từ spa, bán lẻ đến công ty marketing — DXBiz đang giúp hàng nghìn đội ngũ làm việc ít hơn mà hiệu quả hơn.",
     "ratingLabel": "Đánh giá 5 trên 5 sao",
     "items": [
       {
@@ -109,7 +121,7 @@
   },
   "cta": {
     "title": "Sẵn sàng nâng tầm doanh nghiệp?",
-    "subtitle": "Gia nhập cộng đồng 1,000+ doanh nghiệp vừa và nhỏ đang vận hành hiệu quả hơn cùng DXFlow.",
+    "subtitle": "Gia nhập cộng đồng 1,000+ doanh nghiệp vừa và nhỏ đang vận hành hiệu quả hơn cùng DXBiz.",
     "primary": "Liên hệ tư vấn 1-1",
     "note": "Miễn phí tư vấn giải pháp quy trình · Gọi lại trong 24h làm việc"
   },
@@ -133,13 +145,13 @@
     "error": "Gửi không thành công. Vui lòng thử lại."
   },
   "footer": {
-    "tagline": "Phần mềm quản lý và tự động hóa vận hành cho doanh nghiệp vừa và nhỏ tại Việt Nam.",
+    "tagline": "Bộ giải pháp phần mềm cho doanh nghiệp vừa và nhỏ tại Việt Nam.",
     "serviceOf": "Một dịch vụ của",
     "groups": [
-      { "title": "Sản phẩm", "links": ["Tính năng", "Bảng giá", "Demo"] },
+      { "title": "Sản phẩm", "links": ["DXFlow", "OrderHub", "PageHub", "SEOHub"] },
       { "title": "Công ty", "links": ["Về chúng tôi", "Tuyển dụng", "Hỗ trợ"] },
       { "title": "Pháp lý", "links": ["Chính sách bảo mật", "Điều khoản dịch vụ"] }
     ],
-    "copyright": "© 2024 DXFlow. Một dịch vụ của DXS Việt Nam."
+    "copyright": "© 2024 DXBiz. Một dịch vụ của DXS Việt Nam."
   }
 }

@@ -13,7 +13,7 @@ export default function Footer({ dict, lang }: { dict: Dictionary; lang: Locale 
               D
             </span>
             <span className="font-headline text-headline-md font-bold text-on-surface tracking-tight">
-              DXFlow
+              DXBiz
             </span>
           </Link>
           <p className="text-body-sm text-on-surface-variant">{t.tagline}</p>

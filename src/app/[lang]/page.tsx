@@ -3,8 +3,8 @@ import { getDictionary, hasLocale } from "@/i18n/dictionaries";
 import { ContactProvider } from "@/components/ContactModal";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Products from "@/components/Products";
 import Features from "@/components/Features";
-import Architecture from "@/components/Architecture";
 import Solutions from "@/components/Solutions";
 import Partners from "@/components/Partners";
 import Testimonials from "@/components/Testimonials";
@@ -25,8 +25,8 @@ export default async function Home({
       <Header nav={dict.nav} lang={lang} />
       <main className="pt-16 flex-1">
         <Hero dict={dict} />
+        <Products dict={dict} />
         <Features dict={dict} />
-        <Architecture dict={dict} />
         <Solutions dict={dict} />
         <Partners dict={dict} />
         <Testimonials dict={dict} />

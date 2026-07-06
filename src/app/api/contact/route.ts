@@ -27,7 +27,7 @@ export async function POST(request: Request) {
     method: "POST",
     headers: { "Content-Type": "application/json", Accept: "application/json" },
     body: JSON.stringify({
-      _subject: `[DXFlow] Khách liên hệ tư vấn: ${name}`,
+      _subject: `[DXBiz] Khách liên hệ tư vấn: ${name}`,
       _template: "table",
       "Họ tên": name,
       "Số điện thoại": phone,

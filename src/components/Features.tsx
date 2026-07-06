@@ -12,7 +12,7 @@ export default function Features({ dict }: { dict: Dictionary }) {
   return (
     <section
       id="features"
-      className="scroll-section py-20 lg:py-28 bg-surface-container-low border-y border-outline-variant/30"
+      className="scroll-section py-20 lg:py-28"
     >
       <div className="max-w-[1440px] mx-auto px-4 md:px-8">
         <div className="text-center max-w-2xl mx-auto mb-14">

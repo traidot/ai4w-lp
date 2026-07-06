@@ -1,36 +1,64 @@
 {
   "meta": {
-    "title": "DXFlow - The operating system for work",
-    "description": "Management and operations automation software for small and medium businesses in Vietnam."
+    "title": "DXBiz - A software suite for small & medium businesses",
+    "description": "A software suite for management, sales and automation for small and medium businesses in Vietnam. Includes DXFlow, OrderHub, PageHub and SEOHub."
   },
   "nav": {
-    "features": "Features",
+    "products": "Products",
+    "features": "Why DXBiz",
     "solutions": "Solutions",
     "pricing": "Pricing",
     "login": "Log in",
     "contact": "Contact us",
     "switchLanguage": "Switch language",
-    "home": "DXFlow home"
+    "home": "DXBiz home"
   },
   "hero": {
-    "badge": "Operations software for Vietnamese businesses",
-    "title": "Manage and automate operations for Vietnamese businesses",
-    "subtitle": "DXFlow unifies sales, inventory and customers, and automates repetitive work — so your team does less manual work, makes fewer mistakes, and focuses on growth.",
+    "badge": "A software suite for small & medium businesses",
+    "title": "A complete software suite for Vietnamese businesses",
+    "subtitle": "DXBiz brings together products for management and automation — from operations and orders to sales pages and SEO — helping small and medium businesses digitize and grow faster.",
     "ctaPrimary": "Contact us",
     "ctaSecondary": "Watch demo",
-    "imgAlt": "DXFlow dashboard showing business operations metrics",
+    "imgAlt": "DXBiz dashboard showing business operations metrics",
     "chipSync": "Orders synced · Sapo, GHN",
     "chipRevenueLabel": "Revenue this month",
     "stats": [
       { "value": "1,000+", "label": "Small & medium businesses" },
-      { "value": "90%", "label": "Tasks automated" },
+      { "value": "4", "label": "Integrated products" },
       { "value": "24/7", "label": "Always-on operations" }
     ]
   },
+  "products": {
+    "eyebrow": "The DXBiz suite",
+    "title": "Multiple products, one ecosystem",
+    "subtitle": "Each product solves a specific business problem and connects seamlessly under one DXBiz account.",
+    "items": [
+      {
+        "name": "DXFlow",
+        "tag": "AI For Work",
+        "description": "An AI assistant for work — automates processes and connects with a wide range of software you already use, not just DXBiz's own products."
+      },
+      {
+        "name": "OrderHub",
+        "tag": "Order management",
+        "description": "Manage orders and omnichannel sales in one place, with inventory and shipping synced in real time."
+      },
+      {
+        "name": "PageHub",
+        "tag": "Sales pages",
+        "description": "Build and manage professional landing and sales pages — no coding required."
+      },
+      {
+        "name": "SEOHub",
+        "tag": "SEO optimization",
+        "description": "Track and optimize search rankings to grow organic traffic to your website."
+      }
+    ]
+  },
   "features": {
-    "eyebrow": "Core features",
-    "title": "One platform, replacing a pile of disconnected tools",
-    "subtitle": "Instead of juggling separate apps, DXFlow brings all your operations into one place and automates the repetitive parts.",
+    "eyebrow": "Why DXBiz",
+    "title": "Everything in one ecosystem, no more disconnected tools",
+    "subtitle": "Instead of juggling separate apps, DXBiz brings every product into one place — shared data, one login.",
     "items": [
       {
         "title": "Automation",
@@ -42,34 +70,18 @@
       },
       {
         "title": "Connect & Sync",
-        "description": "Deep integration with Vietnam's ecosystem: Sapo, MISA, GHN, VietQR. Data stays in sync across platforms instantly."
+        "description": "Deep integration with Vietnam's ecosystem: Sapo, MISA, GHN, VietQR. Data stays in sync across products instantly."
       }
     ]
-  },
-  "architecture": {
-    "eyebrow": "Unified platform",
-    "title": "One platform for your entire operation",
-    "subtitle": "From sales, inventory and customers to automation — everything connects in one system, with no more scattered data.",
-    "sales": "Omnichannel sales",
-    "salesDesc": "Orders from stores, your website and marketplaces in one place.",
-    "inventory": "Inventory",
-    "inventoryDesc": "Accurate stock levels with out-of-stock alerts.",
-    "crm": "Customers & CRM",
-    "crmDesc": "Purchase history, customer care and appointment reminders.",
-    "automation": "Automation & Reminders",
-    "automationDesc": "Repetitive workflows run on their own, to the right person at the right time.",
-    "security": "Security & Permissions",
-    "securityDesc": "Data is encrypted and role-based, keeping your business information safe at all times.",
-    "securityBadge": "Data encrypted"
   },
   "solutions": {
     "eyebrow": "Industry solutions",
     "title": "Tailored solutions for every industry",
-    "subtitle": "Every industry has its own quirks; DXFlow is built to adapt and optimize for each specific workflow.",
+    "subtitle": "Every industry has its own quirks; DXBiz is built to adapt and optimize for each specific workflow.",
     "spaBadge": "Spa & Salon solution",
     "spaTitle": "Appointment management & automated CRM",
     "spaDesc": "Automate 90% of booking, reminders and returning-customer care via Zalo OA.",
-    "spaImgAlt": "Spa staff using DXFlow software at the reception desk",
+    "spaImgAlt": "Spa staff using DXBiz software at the reception desk",
     "items": [
       {
         "title": "Retail",
@@ -87,7 +99,7 @@
   "testimonials": {
     "eyebrow": "What customers say",
     "title": "Trusted by small and medium businesses to run every day",
-    "subtitle": "From spas and retail to marketing agencies — DXFlow helps thousands of teams do less and achieve more.",
+    "subtitle": "From spas and retail to marketing agencies — DXBiz helps thousands of teams do less and achieve more.",
     "ratingLabel": "Rated 5 out of 5 stars",
     "items": [
       {
@@ -109,7 +121,7 @@
   },
   "cta": {
     "title": "Ready to level up your business?",
-    "subtitle": "Join 1,000+ small and medium businesses already operating more efficiently with DXFlow.",
+    "subtitle": "Join 1,000+ small and medium businesses already operating more efficiently with DXBiz.",
     "primary": "Book a 1-on-1 consultation",
     "note": "Free process consultation · We call back within 24 business hours"
   },
@@ -133,13 +145,13 @@
     "error": "Something went wrong. Please try again."
   },
   "footer": {
-    "tagline": "Management and operations automation software for small and medium businesses in Vietnam.",
+    "tagline": "A software suite for small and medium businesses in Vietnam.",
     "serviceOf": "A service by",
     "groups": [
-      { "title": "Product", "links": ["Features", "Pricing", "Demo"] },
+      { "title": "Products", "links": ["DXFlow", "OrderHub", "PageHub", "SEOHub"] },
       { "title": "Company", "links": ["About us", "Careers", "Support"] },
       { "title": "Legal", "links": ["Privacy Policy", "Terms of Service"] }
     ],
-    "copyright": "© 2024 DXFlow. A service by DXS Việt Nam."
+    "copyright": "© 2024 DXBiz. A service by DXS Việt Nam."
   }
 }

@@ -46,7 +46,7 @@ export default function Header({ nav, lang }: { nav: Dictionary["nav"]; lang: Lo
             D
           </span>
           <span className="font-headline text-headline-md font-bold text-on-surface tracking-tight">
-            DXFlow
+            DXBiz
           </span>
         </Link>
 
