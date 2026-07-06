@@ -51,7 +51,7 @@ export default function Header({ nav, lang }: { nav: Dictionary["nav"]; lang: Lo
             priority
             className="h-9 w-9"
           />
-          <span className="font-headline text-headline-md font-bold text-on-surface tracking-tight">
+          <span className="font-headline text-[20px] leading-none font-bold text-on-surface tracking-tight">
             DXBiz
           </span>
         </Link>

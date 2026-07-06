@@ -11,7 +11,7 @@ export default function Footer({ dict, lang }: { dict: Dictionary; lang: Locale 
         <div className="col-span-2 flex flex-col gap-4 max-w-xs">
           <Link href={`/${lang}`} className="flex items-center gap-2" aria-label={dict.nav.home}>
             <Image src="/dxbiz-mark.png" alt="" width={36} height={36} className="h-9 w-9" />
-            <span className="font-headline text-headline-md font-bold text-on-surface tracking-tight">
+            <span className="font-headline text-[20px] leading-none font-bold text-on-surface tracking-tight">
               DXBiz
             </span>
           </Link>
