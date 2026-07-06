@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "DXBiz - Bộ giải pháp cho doanh nghiệp vừa và nhỏ",
+    "title": "DXBiz - Chuyển đổi số cho doanh nghiệp Việt",
     "description": "Bộ giải pháp phần mềm quản lý, bán hàng và tự động hóa cho doanh nghiệp vừa và nhỏ tại Việt Nam. Gồm DXFlow, OrderHub, PageHub và SEOHub."
   },
   "nav": {
@@ -145,6 +145,7 @@
     "error": "Gửi không thành công. Vui lòng thử lại."
   },
   "footer": {
+    "slogan": "Chuyển đổi số cho doanh nghiệp Việt",
     "tagline": "Bộ giải pháp phần mềm cho doanh nghiệp vừa và nhỏ tại Việt Nam.",
     "serviceOf": "Một dịch vụ của",
     "groups": [

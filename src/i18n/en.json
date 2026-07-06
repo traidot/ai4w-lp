@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "DXBiz - A software suite for small & medium businesses",
+    "title": "DXBiz - Digital transformation for Vietnamese businesses",
     "description": "A software suite for management, sales and automation for small and medium businesses in Vietnam. Includes DXFlow, OrderHub, PageHub and SEOHub."
   },
   "nav": {
@@ -145,6 +145,7 @@
     "error": "Something went wrong. Please try again."
   },
   "footer": {
+    "slogan": "Digital transformation for Vietnamese businesses",
     "tagline": "A software suite for small and medium businesses in Vietnam.",
     "serviceOf": "A service by",
     "groups": [

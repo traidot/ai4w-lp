@@ -15,6 +15,7 @@ export default function Footer({ dict, lang }: { dict: Dictionary; lang: Locale 
               DXBiz
             </span>
           </Link>
+          <p className="font-headline text-label-md font-semibold text-primary">{t.slogan}</p>
           <p className="text-body-sm text-on-surface-variant">{t.tagline}</p>
           <p className="text-body-sm text-on-surface-variant">
             {t.serviceOf}{" "}
