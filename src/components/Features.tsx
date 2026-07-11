@@ -1,9 +1,9 @@
 import type { Dictionary } from "@/i18n/dictionaries";
 
 const ICONS = [
-  { icon: "sync_alt", iconClass: "bg-primary/10 text-primary" },
-  { icon: "insights", iconClass: "bg-tertiary/10 text-tertiary" },
-  { icon: "hub", iconClass: "bg-secondary/10 text-secondary" },
+  { icon: "design_services", iconClass: "bg-primary/10 text-primary" },
+  { icon: "rocket_launch", iconClass: "bg-tertiary/10 text-tertiary" },
+  { icon: "handshake", iconClass: "bg-secondary/10 text-secondary" },
 ];
 
 export default function Features({ dict }: { dict: Dictionary }) {

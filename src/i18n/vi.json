@@ -1,10 +1,10 @@
 {
   "meta": {
     "title": "DXBiz - Chuyển đổi số cho doanh nghiệp Việt",
-    "description": "Bộ giải pháp phần mềm quản lý, bán hàng và tự động hóa cho doanh nghiệp vừa và nhỏ tại Việt Nam. Gồm DXFlow, OrderHub, PageHub và SEOHub."
+    "description": "DXBiz tư vấn và triển khai giải pháp chuyển đổi số may đo cho doanh nghiệp — tối ưu vận hành, tăng hiệu quả và đồng hành dài hạn."
   },
   "nav": {
-    "products": "Sản phẩm",
+    "products": "Nền tảng",
     "features": "Vì sao DXBiz",
     "solutions": "Giải pháp",
     "contact": "Liên hệ",
@@ -12,29 +12,29 @@
     "home": "DXBiz trang chủ"
   },
   "hero": {
-    "badge": "Bộ giải pháp cho doanh nghiệp vừa và nhỏ",
-    "title": "Trọn bộ giải pháp phần mềm cho doanh nghiệp Việt",
-    "subtitle": "DXBiz gồm nhiều sản phẩm quản lý và tự động hóa — từ vận hành, đơn hàng, trang bán hàng đến SEO — giúp doanh nghiệp vừa và nhỏ số hóa và tăng trưởng nhanh hơn.",
-    "ctaPrimary": "Liên hệ tư vấn",
-    "ctaSecondary": "Xem Demo",
-    "imgAlt": "Bảng điều khiển DXBiz hiển thị số liệu vận hành doanh nghiệp",
-    "chipSync": "Đồng bộ đơn hàng · Sapo, GHN",
-    "chipRevenueLabel": "Doanh thu tháng này",
+    "badge": "Đối tác chuyển đổi số cho doanh nghiệp",
+    "title": "Giải pháp chuyển đổi số may đo cho doanh nghiệp của bạn",
+    "subtitle": "DXBiz đồng hành từ khâu tư vấn, thiết kế đến triển khai giải pháp số — bám sát quy trình thực tế của doanh nghiệp, thay vì bắt bạn thích nghi với một phần mềm đóng hộp.",
+    "ctaPrimary": "Nhận tư vấn giải pháp",
+    "ctaSecondary": "Xem cách hoạt động",
+    "imgAlt": "Bảng điều khiển giải pháp DXBiz hiển thị số liệu vận hành doanh nghiệp",
+    "chipSync": "Đồng bộ dữ liệu · Sapo, GHN, MISA",
+    "chipRevenueLabel": "Hiệu quả vận hành",
     "stats": [
-      { "value": "1,000+", "label": "Doanh nghiệp vừa & nhỏ" },
-      { "value": "4", "label": "Sản phẩm tích hợp" },
-      { "value": "24/7", "label": "Vận hành liên tục" }
+      { "value": "40%", "label": "Giảm thao tác thủ công" },
+      { "value": "2 tuần", "label": "Bắt đầu triển khai" },
+      { "value": "24/7", "label": "Đồng hành & hỗ trợ" }
     ]
   },
   "products": {
-    "eyebrow": "Bộ giải pháp DXBiz",
-    "title": "Nhiều sản phẩm, một hệ sinh thái",
-    "subtitle": "Mỗi sản phẩm giải quyết một bài toán của doanh nghiệp, kết nối liền mạch trong cùng một tài khoản DXBiz.",
+    "eyebrow": "Nền tảng công nghệ",
+    "title": "Công cụ tạo nên giải pháp cho bạn",
+    "subtitle": "Mỗi giải pháp DXBiz được xây trên các nền tảng sẵn có và tùy biến theo bài toán của doanh nghiệp — bạn không phải bắt đầu từ con số 0.",
     "items": [
       {
         "name": "DXFlow",
         "tag": "AI For Work",
-        "description": "Trợ lý AI cho công việc — tự động hóa quy trình và kết nối với hàng loạt phần mềm bạn đang dùng, không chỉ riêng sản phẩm của DXBiz."
+        "description": "Trợ lý AI tự động hóa quy trình và kết nối với hàng loạt phần mềm doanh nghiệp đang dùng, không chỉ riêng sản phẩm của DXBiz."
       },
       {
         "name": "OrderHub",
@@ -44,110 +44,110 @@
       {
         "name": "PageHub",
         "tag": "Trang bán hàng",
-        "description": "Tạo và quản lý landing page, trang bán hàng chuyên nghiệp mà không cần biết lập trình."
+        "description": "Xây dựng và quản lý landing page, trang bán hàng chuyên nghiệp mà không cần đội kỹ thuật."
       },
       {
         "name": "SEOHub",
         "tag": "Tối ưu SEO",
-        "description": "Theo dõi và tối ưu thứ hạng tìm kiếm, tăng lưu lượng truy cập tự nhiên cho website."
+        "description": "Theo dõi và tối ưu thứ hạng tìm kiếm, tăng lưu lượng truy cập tự nhiên cho website doanh nghiệp."
       }
     ]
   },
   "features": {
     "eyebrow": "Vì sao chọn DXBiz",
-    "title": "Tất cả trong một hệ sinh thái, không còn công cụ rời rạc",
-    "subtitle": "Thay vì dùng nhiều app tách rời, DXBiz gom mọi sản phẩm về một nơi — dùng chung dữ liệu, đăng nhập một lần.",
+    "title": "Không phải phần mềm đóng hộp — là giải pháp cho doanh nghiệp bạn",
+    "subtitle": "DXBiz tư vấn theo bài toán thực tế, triển khai nhanh và đồng hành lâu dài — thay vì để bạn tự xoay xở với một phần mềm.",
     "items": [
       {
-        "title": "Tự động hóa",
-        "description": "Chạy các việc lặp lại, tự động hóa quy trình phê duyệt và nhắc việc nội bộ, giảm thao tác thủ công mỗi ngày."
+        "title": "Giải pháp may đo",
+        "description": "Khảo sát quy trình thực tế và thiết kế giải pháp phù hợp với doanh nghiệp, không ép bạn theo khuôn mẫu có sẵn."
       },
       {
-        "title": "Báo cáo & Phân tích",
-        "description": "Tổng hợp số liệu bán hàng, kho và khách hàng theo thời gian thực, giúp bạn ra quyết định dựa trên dữ liệu."
+        "title": "Triển khai nhanh, ít rủi ro",
+        "description": "Đưa vào vận hành theo từng giai đoạn, có đo lường và điều chỉnh — giảm gián đoạn cho đội ngũ của bạn."
       },
       {
-        "title": "Kết nối & Đồng bộ",
-        "description": "Tích hợp sâu hệ sinh thái Việt Nam: Sapo, MISA, GHN, VietQR. Dữ liệu đồng bộ giữa các sản phẩm tức thì."
+        "title": "Đồng hành & hỗ trợ dài hạn",
+        "description": "Đội ngũ chuyên trách hỗ trợ trong suốt quá trình sử dụng, cùng bạn tối ưu liên tục theo đà tăng trưởng."
       }
     ]
   },
   "solutions": {
     "eyebrow": "Giải pháp theo ngành",
-    "title": "Giải pháp chuyên biệt cho từng ngành hàng",
-    "subtitle": "Mỗi lĩnh vực có những đặc thù riêng, DXBiz được thiết kế để thích ứng và tối ưu hóa cho từng quy trình cụ thể.",
-    "spaBadge": "Giải pháp Spa & Salon",
+    "title": "Giải pháp riêng cho từng mô hình doanh nghiệp",
+    "subtitle": "Mỗi ngành có bài toán vận hành khác nhau — DXBiz thiết kế giải pháp bám sát đặc thù và quy trình của doanh nghiệp bạn.",
+    "spaBadge": "Chuỗi Spa & Salon",
     "spaTitle": "Quản lý lịch hẹn & CRM tự động",
-    "spaDesc": "Tự động hóa 90% quy trình đặt lịch, nhắc hẹn và chăm sóc khách hàng cũ qua Zalo OA.",
-    "spaImgAlt": "Nhân viên spa sử dụng phần mềm DXBiz tại quầy lễ tân",
+    "spaDesc": "Tự động hóa quy trình đặt lịch, nhắc hẹn và chăm sóc khách hàng cũ, đồng bộ giữa các chi nhánh.",
+    "spaImgAlt": "Nhân viên spa sử dụng giải pháp DXBiz tại quầy lễ tân",
     "items": [
       {
-        "title": "Bán lẻ",
-        "description": "Quản lý kho chính xác, dự báo hàng tồn và tích hợp vận chuyển GHN/AhaMove tức thì."
+        "title": "Bán lẻ & Chuỗi",
+        "description": "Quản lý kho, đồng bộ đa chi nhánh, dự báo hàng tồn và tích hợp vận chuyển GHN/AhaMove."
       },
       {
-        "title": "Công ty Marketing",
+        "title": "Dịch vụ & Agency",
         "description": "Quản lý dự án tập trung, tự động hóa báo cáo và phân bổ nguồn lực nhân sự hiệu quả."
       }
     ]
   },
   "partners": {
-    "label": "Được tin dùng & tích hợp cùng các nền tảng hàng đầu Việt Nam"
+    "label": "Tích hợp cùng các nền tảng doanh nghiệp hàng đầu Việt Nam"
   },
   "testimonials": {
     "eyebrow": "Khách hàng nói gì",
-    "title": "Được các doanh nghiệp vừa và nhỏ tin tưởng vận hành mỗi ngày",
-    "subtitle": "Từ spa, bán lẻ đến công ty marketing — DXBiz đang giúp hàng nghìn đội ngũ làm việc ít hơn mà hiệu quả hơn.",
+    "title": "Được các doanh nghiệp tin tưởng vận hành mỗi ngày",
+    "subtitle": "Nhiều doanh nghiệp đã tối ưu vận hành và tăng trưởng cùng giải pháp DXBiz.",
     "ratingLabel": "Đánh giá 5 trên 5 sao",
     "items": [
       {
-        "quote": "DXFlow thay thế gần như toàn bộ việc nhắc lịch và chăm sóc khách cũ. Nhân viên lễ tân giờ tập trung phục vụ tại quầy, tỷ lệ khách quay lại tăng rõ rệt.",
+        "quote": "DXBiz khảo sát đúng quy trình của chuỗi và triển khai gọn gàng. Việc nhắc lịch, chăm sóc khách cũ giờ tự chạy, tỷ lệ khách quay lại tăng rõ rệt.",
         "role": "Chủ chuỗi spa",
         "metricLabel": "Khách quay lại"
       },
       {
-        "quote": "Đồng bộ tồn kho giữa Sapo và kho thực tế theo thời gian thực giúp chúng tôi hết cảnh bán vượt hàng. Báo cáo cuối ngày tự chạy, không phải ngồi nhập tay nữa.",
+        "quote": "Đồng bộ tồn kho giữa Sapo và kho thực tế theo thời gian thực giúp chúng tôi hết cảnh bán vượt hàng. Báo cáo cuối ngày tự chạy, không phải nhập tay nữa.",
         "role": "Giám đốc vận hành",
         "metricLabel": "Tiết kiệm mỗi tuần"
       },
       {
-        "quote": "Phần mềm tự phân bổ đầu việc và tổng hợp báo cáo chiến dịch cho từng khách hàng. Đội ngũ nhẹ đầu hẳn, chúng tôi nhận thêm dự án mà không cần tuyển gấp.",
+        "quote": "Đội DXBiz đồng hành sát trong lúc triển khai và cả sau đó. Quy trình được số hóa dần, đội ngũ nhẹ đầu hẳn mà không bị gián đoạn.",
         "role": "Nhà sáng lập",
         "metricLabel": "Năng suất đội ngũ"
       }
     ]
   },
   "cta": {
-    "title": "Sẵn sàng nâng tầm doanh nghiệp?",
-    "subtitle": "Gia nhập cộng đồng 1,000+ doanh nghiệp vừa và nhỏ đang vận hành hiệu quả hơn cùng DXBiz.",
-    "primary": "Liên hệ tư vấn 1-1",
-    "note": "Miễn phí tư vấn giải pháp quy trình · Gọi lại trong 24h làm việc"
+    "title": "Sẵn sàng tối ưu vận hành doanh nghiệp?",
+    "subtitle": "Đặt lịch tư vấn 1-1 với DXBiz — chúng tôi phân tích bài toán của bạn và đề xuất giải pháp phù hợp.",
+    "primary": "Đặt lịch tư vấn 1-1",
+    "note": "Miễn phí tư vấn & khảo sát quy trình · Phản hồi trong 24h làm việc"
   },
   "contact": {
-    "title": "Liên hệ tư vấn",
-    "subtitle": "Để lại thông tin, chúng tôi sẽ gọi lại tư vấn miễn phí trong 24 giờ làm việc.",
+    "title": "Nhận tư vấn giải pháp",
+    "subtitle": "Để lại thông tin, chúng tôi sẽ liên hệ tư vấn và khảo sát miễn phí trong 24 giờ làm việc.",
     "name": "Họ và tên",
     "namePlaceholder": "Nguyễn Văn A",
     "phone": "Số điện thoại",
     "phonePlaceholder": "09xx xxx xxx",
     "company": "Tên doanh nghiệp",
     "companyPlaceholder": "Không bắt buộc",
-    "message": "Nhu cầu của bạn",
-    "messagePlaceholder": "Ví dụ: cần quản lý spa 3 chi nhánh, tự động nhắc lịch hẹn…",
+    "message": "Bài toán của bạn",
+    "messagePlaceholder": "Ví dụ: cần số hóa quy trình vận hành, quản lý đa chi nhánh…",
     "optional": "không bắt buộc",
     "submit": "Gửi thông tin",
     "submitting": "Đang gửi…",
     "successTitle": "Đã nhận thông tin!",
-    "successDesc": "Cảm ơn bạn. Chúng tôi sẽ gọi lại tư vấn trong thời gian sớm nhất.",
+    "successDesc": "Cảm ơn bạn. Chúng tôi sẽ liên hệ tư vấn trong thời gian sớm nhất.",
     "close": "Đóng",
     "error": "Gửi không thành công. Vui lòng thử lại."
   },
   "footer": {
     "slogan": "Chuyển đổi số cho doanh nghiệp Việt",
-    "tagline": "Bộ giải pháp phần mềm cho doanh nghiệp vừa và nhỏ tại Việt Nam.",
+    "tagline": "Đối tác tư vấn và triển khai giải pháp chuyển đổi số cho doanh nghiệp.",
     "serviceOf": "Một dịch vụ của",
     "groups": [
-      { "title": "Sản phẩm", "links": ["DXFlow", "OrderHub", "PageHub", "SEOHub"] },
+      { "title": "Nền tảng", "links": ["DXFlow", "OrderHub", "PageHub", "SEOHub"] },
       { "title": "Công ty", "links": ["Về chúng tôi", "Tuyển dụng", "Hỗ trợ"] },
       { "title": "Pháp lý", "links": ["Chính sách bảo mật", "Điều khoản dịch vụ"] }
     ],
